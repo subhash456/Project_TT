@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_331786_proj_tt.LoadData</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>LoadData</name>
+        <script><![CDATA[var LoadData = Class.create();
+LoadData.prototype = {
+    initialize: function() {
+        var s = current.varuiables.subject1;
+        var app = '';
+        var sec;
+        var gr = new GlideRecord('x_331786_proj_tt_courses');
+        gr.addQuery('course_name', s);
+        gr.query();
+        while (gr.next()) {
+            sec = gr.sys_id;
+        }
+        var grn = new GlideRecord('x_331786_proj_tt_faculty');
+        grn.addQuery('sub_opt', sec);
+        grn.query();
+        while (gr.next()) {
+            app = gr.sys_id.toString();
+        }
+        return 'sys_idIN' + app;
+    },
+
+
+    type: 'LoadData'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 11:26:05</sys_created_on>
+        <sys_id>fedad616dbd30010281270e239961957</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>LoadData</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_script_include_fedad616dbd30010281270e239961957</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 11:27:53</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>caa58fcadbf4fb0442b321c40596196a</instance_id>
+        <instance_name>dev81165</instance_name>
+        <name>sys_script_include_fedad616dbd30010281270e239961957</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;false&lt;/active&gt;&lt;api_name&gt;x_331786_proj_tt.LoadData&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;LoadData&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var LoadData = Class.create();
+LoadData.prototype = {
+    initialize: function() {
+        var s = current.varuiables.subject1;
+        var app = '';
+        var sec;
+        var gr = new GlideRecord('x_331786_proj_tt_courses');
+        gr.addQuery('course_name', s);
+        gr.query();
+        while (gr.next()) {
+            sec = gr.sys_id;
+        }
+        var grn = new GlideRecord('x_331786_proj_tt_faculty');
+        grn.addQuery('sub_opt', sec);
+        grn.query();
+        while (gr.next()) {
+            app = gr.sys_id.toString();
+        }
+        return 'sys_idIN' + app;
+    },
+
+
+    type: 'LoadData'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-03-04 11:26:05&lt;/sys_created_on&gt;&lt;sys_id&gt;fedad616dbd30010281270e239961957&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LoadData&lt;/sys_name&gt;&lt;sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt"&gt;1616c3eddb530010281270e2399619b4&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Project-Time Table Management System"&gt;1616c3eddb530010281270e2399619b4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_fedad616dbd30010281270e239961957&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-03-04 11:27:53&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-485856533</payload_hash>
+        <record_name>LoadData</record_name>
+        <reverted_from/>
+        <source>9e16c3eddb530010281270e2399619b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 11:27:53</sys_created_on>
+        <sys_id>7a6bded2dbd30010281270e23996191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a54d545d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 11:27:53</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>f26bded26cd30010ebc91c066875f91e</update_guid>
+        <update_guid_history>f26bded26cd30010ebc91c066875f91e:-485856533,580b5216d0d300103a6dbfaab6508c23:1815743132</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-05 09:08:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>3806b642ed404fe497bb850e15a32fe1</sys_id>
+        <sys_metadata>fedad616dbd30010281270e239961957</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LoadData</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sys_script_include_fedad616dbd30010281270e239961957</sys_update_name>
+        <sys_update_version display_value="sys_script_include_fedad616dbd30010281270e239961957">7a6bded2dbd30010281270e23996191e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-05 09:08:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

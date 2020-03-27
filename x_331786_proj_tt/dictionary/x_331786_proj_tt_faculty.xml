@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Faculty" max_length="40" name="x_331786_proj_tt_faculty" sizeclass="13" type="collection">
+        <element label="Faculty ID" mandatory="true" max_length="40" name="fac_id" primary="true" type="integer" unique="true"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Faculty Name" mandatory="true" max_length="50" name="fac_name" type="string"/>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" label="Stream Opted" mandatory="true" max_length="32" name="stream" reference="x_331786_proj_tt_stream" type="reference">
+            <choice/>
+        </element>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="3" dependent="stream" dependent_on_field="stream" label="Subject Opted" max_length="32" name="sub_opt" reference="x_331786_proj_tt_courses" reference_qual="javascript:&quot;stream=&quot;+current.stream;" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="fac_id"/>
+        </index>
+        <index name="index2">
+            <element name="sub_opt"/>
+        </index>
+        <index name="index3">
+            <element name="stream"/>
+        </index>
+    </element>
+</database>

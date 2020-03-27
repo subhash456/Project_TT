@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Add Faculty to User Table</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    var k = new GlideAjax('Add_User');
+    k.addParam('sysparm_name', 'User');
+    k.addParam('id', g_form.getValue('fac_id'));
+    k.addParam('title', g_form.getValue('fac_name'));
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-10 06:30:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>30df40d4dbef0010281270e239961913</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Add Faculty to User Table</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_script_client_30df40d4dbef0010281270e239961913</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-10 06:51:35</sys_updated_on>
+        <table>x_331786_proj_tt_faculty</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>caa58fcadbf4fb0442b321c40596196a</instance_id>
+        <instance_name>dev81165</instance_name>
+        <name>sys_script_client_30df40d4dbef0010281270e239961913</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;sys_created_on&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Add Faculty to User Table&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+    var k = new GlideAjax('Add_User');
+    k.addParam('sysparm_name', 'User');
+    k.addParam('id', g_form.getValue('fac_id'));
+    k.addParam('title', g_form.getValue('fac_name'));
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-03-10 06:30:00&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;30df40d4dbef0010281270e239961913&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Add Faculty to User Table&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt"&gt;1616c3eddb530010281270e2399619b4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Project-Time Table Management System"&gt;1616c3eddb530010281270e2399619b4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_30df40d4dbef0010281270e239961913&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-03-10 06:51:35&lt;/sys_updated_on&gt;&lt;table&gt;x_331786_proj_tt_faculty&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1515729766</payload_hash>
+        <record_name>Add Faculty to User Table</record_name>
+        <reverted_from/>
+        <source>9e16c3eddb530010281270e2399619b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-10 06:51:35</sys_created_on>
+        <sys_id>7db558d8dbef0010281270e2399619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170c336866a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-10 06:51:35</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>f5b558d87def00105292fa2dd9df78a6</update_guid>
+        <update_guid_history>f5b558d87def00105292fa2dd9df78a6:-1515729766,c18414982eef001011f50520bccb22a1:18626606,fc141098a0ef0010adfb7cb7b50aecef:-1089293250,04c350581cef00107753e0fdb45238bb:-1079044880,53d2985844ef0010b85eae095851ec31:-1315416743,a0725c94ccef001040233b68c187bba1:1547226098,5f811c18f5ef0010ff9315ede78e1619:-594299948,79c01418f3ef001073f985d943e9b1a0:-1600168870</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-10 06:56:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>112919af2bbb4fda8d161b94a43b7799</sys_id>
+        <sys_metadata>30df40d4dbef0010281270e239961913</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Faculty to User Table</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent display_value="Faculty">9937cf21db930010281270e2399619e7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sys_script_client_30df40d4dbef0010281270e239961913</sys_update_name>
+        <sys_update_version display_value="sys_script_client_30df40d4dbef0010281270e239961913">7db558d8dbef0010281270e2399619a6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-10 06:56:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="sec_opt" table="x_331786_proj_tt_students">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>ref_auto_completer=AJAXReferenceChoice,is_searchable_choice</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Section Opted</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>stream</dependent>
+        <dependent_on_field>stream</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sec_opt</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_331786_proj_tt_students</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_331786_proj_tt_sections">x_331786_proj_tt_sections</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual>javascript:"stream="+current.stream;&#13;
+</reference_qual>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 06:51:33</sys_created_on>
+        <sys_id>eff80ba1db930010281270e239961985</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>Section Opted</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_dictionary_x_331786_proj_tt_students_sec_opt</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 07:02:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>caa58fcadbf4fb0442b321c40596196a</instance_id>
+        <instance_name>dev81165</instance_name>
+        <name>sys_dictionary_x_331786_proj_tt_students_sec_opt</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="sec_opt" table="x_331786_proj_tt_students"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>ref_auto_completer=AJAXReferenceChoice,is_searchable_choice</attributes><audit>false</audit><calculation/><choice>1</choice><choice_field/><choice_table/><column_label>Section Opted</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent>stream</dependent><dependent_on_field>stream</dependent_on_field><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>sec_opt</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>x_331786_proj_tt_students</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="x_331786_proj_tt_sections">x_331786_proj_tt_sections</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual>javascript:"stream="+current.stream;&#13;
+</reference_qual><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-02 06:51:33</sys_created_on><sys_id>eff80ba1db930010281270e239961985</sys_id><sys_mod_count>30</sys_mod_count><sys_name>Section Opted</sys_name><sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package><sys_policy/><sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope><sys_update_name>sys_dictionary_x_331786_proj_tt_students_sec_opt</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-04 07:02:55</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>true</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>advanced</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>458828501</payload_hash>
+        <record_name>Students.Section Opted</record_name>
+        <reverted_from/>
+        <source>9e16c3eddb530010281270e2399619b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 07:02:55</sys_created_on>
+        <sys_id>95ce995adb130010281270e23996191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a45abd8a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 07:02:55</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>11ce995a5c130010eea223d23345071c</update_guid>
+        <update_guid_history>11ce995a5c130010eea223d23345071c:458828501,e06ed11a25130010c54f4f186b4dcf2d:526573472,3c1d911ae3130010ba90cef70618e312:914815349,213c19d6f613001092ed6055a84b7b73:1058601044,2e8b11d6e8130010cf9501eef393d700:2005823954,a14b1d968013001031ab71bf47674e8d:914815349,803b9996c8130010e71cd49fef4f1bff:-1323908511,f0cad196ba130010759745b6ab553003:1953189192,e0aa91965713001051ce1bf835b2a95b:914815349,31e959560e130010d83fa8369216f25d:26993313,78991556ed1300103142df48f5709f80:914586903,5b4895163413001098da3c6968035099:-985903093,5b4895163413001098da3c6968035099:-985903093,ee2819d2dd130010cceab425a4f820a3:-1759686963,24d79dd2831300107165fe9fd39bb393:-985903093,a5975dd22d13001096eb0b2502af2845:-1217069920,e7a5d5921d130010037a23bbe0f5d61b:-985903093,030abdc20a570010540af72d2c71800c:914815349,9c5875828a570010aac86cce42fe0930:-932248211,4496f5423e5700109a676d457998c00d:914815349,774675420a570010b791b7aee8755289:914586903,a6163d023a5700101ffce86db09d4c2d:914815349,4cc5bd02d457001066911cb335f99547:2076064268,4a61bd4e49170010b2eb4f56b9e9f99b:914815349,71e0794e75170010b4e11c420b00b1af:-1148145124,4c85ed468a17001011727f42b7c834b0:914815349,577ff88a72930010607ad682f9dd04b0:-322178279,482f9c426253001058469ad080907eae:152679979,9c6f0086a8130010cd3aeec6f5b0b023:121913615,ec4f4846fa13001048a219766a573549:-706821216,bff80ba1aa930010b95233a1bfa992fb:-1209255041</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 07:11:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>1502159c86b141e99cf3c11a59be00a1</sys_id>
+        <sys_metadata>eff80ba1db930010281270e239961985</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Section Opted</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent display_value="Students">5658cf61db930010281270e239961900</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_331786_proj_tt_students_sec_opt</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_331786_proj_tt_students_sec_opt">95ce995adb130010281270e23996191c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 07:11:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

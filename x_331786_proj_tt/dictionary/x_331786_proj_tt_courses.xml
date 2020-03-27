@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Courses" max_length="40" name="x_331786_proj_tt_courses" sizeclass="10" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Course Code" mandatory="true" max_length="40" name="course_code" primary="true" type="string" unique="true"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Course Name" mandatory="true" max_length="40" name="course_name" type="string"/>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" label="Stream" mandatory="true" max_length="40" name="stream" reference="x_331786_proj_tt_stream" type="reference">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="course_code"/>
+        </index>
+    </element>
+</database>

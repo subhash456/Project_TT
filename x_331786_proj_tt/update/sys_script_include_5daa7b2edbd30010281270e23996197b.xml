@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_331786_proj_tt.getDay</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>getDay</name>
+        <script><![CDATA[function getDay(s, f, id, da) {
+    var c = 0;
+    var set = 0;
+    while (set == 0) {
+        var gr = new GlideRecord('x_331786_proj_tt_final_time_table');
+        gr.addQuery('secfac', f);
+        gr.addQuery('u_choice_3', da);
+        gr.query();
+        while (gr.next()) {
+            var v1 = gr.p1 + ' ';
+            var v2 = gr.p2 + ' ';
+            var v3 = gr.p3 + ' ';
+            var v4 = gr.p4 + ' ';
+            var v5 = gr.p5 + ' ';
+            var v6 = gr.p6 + ' ';
+            var v7 = gr.p7 + ' ';
+            var v8 = gr.p8 + ' ';
+            var gs = new GlideRecord('x_331786_proj_tt_final_time_table');
+            gs.addQuery('secfac', id);
+            gs.addQuery('u_choice_3', da);
+            gs.query();
+            while (gs.next()) {
+                var s1 = gs.p1 + ' ';
+                var s2 = gs.p2 + ' ';
+                var s3 = gs.p3 + ' ';
+                var s4 = gs.p4 + ' ';
+                var s5 = gs.p5 + ' ';
+                var s6 = gs.p6 + ' ';
+                var s7 = gs.p7 + ' ';
+                var s8 = gs.p8 + ' ';
+                var z = Math.floor(Math.random() * (8)) + 1;
+                var p = 'p'+z;
+                if (p == 'p1' && v1 == ' ' && s1 == ' ') {
+                    gs.p1 = s + '-' + f;
+                    gs.update();
+                    gr.p1 = s + '-' + id;
+                    gr.update();
+                    set = 1;
+                    return 0;
+
+                } else if (p == 'p2' && v2 == ' ' && s2 == ' ') {
+                    gs.p2 = s + '-' + f;
+                    gs.update();
+                    gr.p2 = s + '-' + id;
+                    gr.update();
+                    set = 1;
+                    return 0;
+                } else if (p == 'p3' && v3 == ' ' && s3 == ' ') {
+                    gs.p3 = s + '-' + f;
+                    gs.update();
+                    gr.p3 = s + '-' + id;
+                    gr.update();
+                    set = 1;
+                    return 0;
+                } else if (p == 'p4' && v4 == ' ' && s4 == ' ') {
+                    gs.p4 = s + '-' + f;
+                    gs.update();
+                    gr.p4 = s + '-' + id;
+                    gr.update();
+                    set = 1;
+                    return 0;
+                } else if (p == 'p5' && v5 == ' ' && s5 == ' ') {
+                    gs.p5 = s + '-' + f;
+                    gs.update();
+                    gr.p5 = s + '-' + id;
+                    gr.update();
+                    set = 1;
+                    return 0;
+                } else if (p == 'p6' && v6 == ' ' && s6 == ' ') {
+                    gs.p6 = s + '-' + f;
+                    gs.update();
+                    gr.p6 = s + '-' + id;
+                    gr.update();
+                    set = 1;
+                    return 0;
+                } else if (p == 'p7' && v7 == ' ' && s7 == ' ') {
+                    gs.p7 = s + '-' + f;
+                    gs.update();
+                    gr.p7 = s + '-' + id;
+                    gr.update();
+                    set = 1;
+                    return 0;
+                } else if (p == 'p8' && v8 == ' ' && s8 == ' ') {
+                    gs.p8 = s + '-' + f;
+                    gs.update();
+                    gr.p8 = s + '-' + id;
+                    gr.update();
+                    set = 1;
+                    return 0;
+                } else {
+                    set = 0;
+                    c++;
+                }
+                if (c > 26)
+                    return -1;
+            }
+        }
+    }
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-05 13:03:34</sys_created_on>
+        <sys_id>5daa7b2edbd30010281270e23996197b</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>getDay</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_script_include_5daa7b2edbd30010281270e23996197b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-09 13:28:41</sys_updated_on>
+    </sys_script_include>
+</record_update>

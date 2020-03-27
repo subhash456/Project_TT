@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 07:45:16</sys_created_on>
+        <sys_id>e6459fe9db930010281270e2399619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_331786_proj_tt_final_time_table.x_331786_proj_tt.final_time_table_user</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_security_acl display_value="x_331786_proj_tt_final_time_table">6a459fe9db930010281270e2399619a5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e6459fe9db930010281270e2399619a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-02 07:45:16</sys_updated_on>
+        <sys_user_role display_value="x_331786_proj_tt.final_time_table_user" name="x_331786_proj_tt.final_time_table_user">164517a9db930010281270e239961985</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

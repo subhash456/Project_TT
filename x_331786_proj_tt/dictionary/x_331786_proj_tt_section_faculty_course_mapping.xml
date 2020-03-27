@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Form_Section-Faculty Course Mapping" max_length="40" name="x_331786_proj_tt_section_faculty_course_mapping" sizeclass="1" type="collection">
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" dependent="subject1" dependent_on_field="subject1" display="true" label="Faculty Opted" max_length="32" name="fac1_opt" reference_qual="javascript:&#13;&#10;var sec;&#13;&#10;var gr = new GlideRecord('x_331786_proj_tt_courses');&#13;&#10;gr.addQuery('course_name', 'CSE');&#13;&#10;gr.query();&#13;&#10;while (gr.next()) {&#13;&#10;     sec = gr.sys_id;&#13;&#10;}&#13;&#10;&quot;sub_opt=&quot;+sec;" type="choice" use_dependent_field="true" use_reference_qualifier="advanced">
+            <choice/>
+        </element>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" dependent="subject2" dependent_on_field="subject2" label="Faculty Opted" max_length="32" name="fac2_opt" type="choice" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" label="Faculty Opted" max_length="32" name="fac3_opt" type="choice">
+            <choice/>
+        </element>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" label="Faculty Opted" max_length="40" name="fac4_opt" type="choice">
+            <choice/>
+        </element>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" label="Faculty Opted" max_length="40" name="fac5_opt" type="choice">
+            <choice/>
+        </element>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" label="Faculty Opted" max_length="32" name="fac6_opt" type="choice">
+            <choice/>
+        </element>
+        <element label="Add Subject 2" max_length="40" name="insert_sub1" type="boolean"/>
+        <element label="Add Subject 3" max_length="40" name="insert_sub2" type="boolean"/>
+        <element label="Add Subject 4" max_length="40" name="insert_sub3" type="boolean"/>
+        <element label="Add Subject 5" max_length="40" name="insert_sub4" type="boolean"/>
+        <element label="Add Subject 6" max_length="40" name="insert_sub5" type="boolean"/>
+        <element label="Generate Time Table" max_length="40" name="insert_sub6" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="2" label="Number of Classes" max_length="40" name="n1_class" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="2" label="Number of Classes" max_length="40" name="num2_class" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="2" label="Number of Classes" max_length="40" name="num3_class" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="2" label="Number of Classes" max_length="40" name="num4_class" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="2" label="Number of Classes" max_length="40" name="num5_class" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="2" label="Number of Classes" max_length="40" name="num6_class" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" dependent="stream" dependent_on_field="stream" label="Select Section" max_length="32" name="number" primary="true" reference="x_331786_proj_tt_sections" reference_qual="javascript:&quot;stream=&quot;+current.stream;" type="reference" unique="true" use_dependent_field="true" use_reference_qualifier="advanced">
+            <choice/>
+        </element>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" label="Select Stream" mandatory="true" max_length="32" name="stream" reference="x_331786_proj_tt_stream" type="reference">
+            <choice/>
+        </element>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" label="Subject #1" max_length="40" name="subject1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Subject #2" max_length="40" name="subject2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Subject #3" max_length="40" name="subject3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Subject #4" max_length="40" name="subject4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Subject #5" max_length="40" name="subject5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Subject #6" max_length="40" name="subject6" type="string"/>
+        <index name="index">
+            <element name="fac3_opt"/>
+        </index>
+        <index name="index2">
+            <element name="number"/>
+        </index>
+        <index name="index3">
+            <element name="stream"/>
+        </index>
+        <index name="index4">
+            <element name="fac6_opt"/>
+        </index>
+        <index name="index5">
+            <element name="fac1_opt"/>
+        </index>
+        <index name="index6">
+            <element name="fac2_opt"/>
+        </index>
+    </element>
+</database>

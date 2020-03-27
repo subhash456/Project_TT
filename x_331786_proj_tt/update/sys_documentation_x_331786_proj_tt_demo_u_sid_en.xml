@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_sid" label="SID" language="en" table="x_331786_proj_tt_demo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_sid</element>
+            <help/>
+            <hint/>
+            <label>SID</label>
+            <language>en</language>
+            <name>x_331786_proj_tt_demo</name>
+            <plural>SIDs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-23 09:02:20</sys_created_on>
+            <sys_id>3340b79c0777c010b198f8ed7c1ed039</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SID</sys_name>
+            <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+            <sys_update_name>sys_documentation_x_331786_proj_tt_demo_u_sid_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-23 09:02:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

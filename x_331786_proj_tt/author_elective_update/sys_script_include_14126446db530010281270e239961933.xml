@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_331786_proj_tt.getStream</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getStream</name>
+        <script><![CDATA[var getStream = Class.create();
+getStream.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    Stream: function() {
+        var stream = [];
+        var jsonSub;
+        var gr = new GlideRecord('x_331786_proj_tt_stream');
+        gr.query();
+        while (gr.next()) {
+            stream.push(gr.stream_name.toString());
+            jsonSub = JSON.stringify(stream);
+        }
+        return jsonSub;
+    },
+    type: 'getStream'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 08:00:44</sys_created_on>
+        <sys_id>14126446db530010281270e239961933</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>getStream</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_script_include_14126446db530010281270e239961933</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 08:03:18</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>caa58fcadbf4fb0442b321c40596196a</instance_id>
+        <instance_name>dev81165</instance_name>
+        <name>sys_script_include_14126446db530010281270e239961933</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_331786_proj_tt.getStream&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;getStream&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var getStream = Class.create();
+getStream.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    Stream: function() {
+        var stream = [];
+        var jsonSub;
+        var gr = new GlideRecord('x_331786_proj_tt_stream');
+        gr.query();
+        while (gr.next()) {
+            stream.push(gr.stream_name.toString());
+            jsonSub = JSON.stringify(stream);
+        }
+        return jsonSub;
+    },
+    type: 'getStream'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-03-03 08:00:44&lt;/sys_created_on&gt;&lt;sys_id&gt;14126446db530010281270e239961933&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;getStream&lt;/sys_name&gt;&lt;sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt"&gt;1616c3eddb530010281270e2399619b4&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Project-Time Table Management System"&gt;1616c3eddb530010281270e2399619b4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_14126446db530010281270e239961933&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-03-03 08:03:18&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1930716858</payload_hash>
+        <record_name>getStream</record_name>
+        <reverted_from/>
+        <source>9e16c3eddb530010281270e2399619b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 08:03:18</sys_created_on>
+        <sys_id>48032c46db530010281270e2399619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1709f6baa770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 08:03:18</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>c0032c4601530010d695ec4ebf89f0bb</update_guid>
+        <update_guid_history>c0032c4601530010d695ec4ebf89f0bb:1930716858,6662a8466853001017e045b46c9ab144:-1690695282</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 11:14:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>69545100b7024a8496a8c310cc7f0564</sys_id>
+        <sys_metadata>14126446db530010281270e239961933</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getStream</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sys_script_include_14126446db530010281270e239961933</sys_update_name>
+        <sys_update_version display_value="sys_script_include_14126446db530010281270e239961933">48032c46db530010281270e2399619bb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 11:14:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

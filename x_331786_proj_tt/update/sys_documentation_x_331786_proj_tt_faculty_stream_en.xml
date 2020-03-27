@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="stream" label="Stream Opted" language="en" table="x_331786_proj_tt_faculty">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>stream</element>
+            <help/>
+            <hint/>
+            <label>Stream Opted</label>
+            <language>en</language>
+            <name>x_331786_proj_tt_faculty</name>
+            <plural>Stream Opted</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-02 06:47:13</sys_created_on>
+            <sys_id>0c08cb61db930010281270e23996193b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Stream Opted</sys_name>
+            <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+            <sys_update_name>sys_documentation_x_331786_proj_tt_faculty_stream_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-03 09:49:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

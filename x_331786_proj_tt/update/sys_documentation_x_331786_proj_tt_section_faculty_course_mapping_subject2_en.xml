@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="subject2" label="Subject #2" language="en" table="x_331786_proj_tt_section_faculty_course_mapping">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>subject2</element>
+            <help/>
+            <hint/>
+            <label>Subject #2</label>
+            <language>en</language>
+            <name>x_331786_proj_tt_section_faculty_course_mapping</name>
+            <plural>Subject #2s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-03 07:15:07</sys_created_on>
+            <sys_id>2ef7940edb130010281270e23996196e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Subject #2</sys_name>
+            <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+            <sys_update_name>sys_documentation_x_331786_proj_tt_section_faculty_course_mapping_subject2_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-03 07:15:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_331786_proj_tt_section_faculty_course_mapping" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fac1_opt</element>
+            <list_id display_value="x_331786_proj_tt_section_faculty_course_mapping" element="NULL" name="x_331786_proj_tt_section_faculty_course_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bd6fc765db930010281270e23996194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-02 07:19:33</sys_created_on>
+            <sys_id>796fc765db930010281270e23996194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-02 07:19:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fac2_opt</element>
+            <list_id display_value="x_331786_proj_tt_section_faculty_course_mapping" element="NULL" name="x_331786_proj_tt_section_faculty_course_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bd6fc765db930010281270e23996194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-02 07:19:33</sys_created_on>
+            <sys_id>f96fc765db930010281270e23996194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-02 07:19:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fac3_opt</element>
+            <list_id display_value="x_331786_proj_tt_section_faculty_course_mapping" element="NULL" name="x_331786_proj_tt_section_faculty_course_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bd6fc765db930010281270e23996194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-02 07:19:33</sys_created_on>
+            <sys_id>7d6fc765db930010281270e23996194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-02 07:19:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fin1</element>
+            <list_id display_value="x_331786_proj_tt_section_faculty_course_mapping" element="NULL" name="x_331786_proj_tt_section_faculty_course_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bd6fc765db930010281270e23996194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-02 07:19:33</sys_created_on>
+            <sys_id>fd6fc765db930010281270e23996194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-02 07:19:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fin2</element>
+            <list_id display_value="x_331786_proj_tt_section_faculty_course_mapping" element="NULL" name="x_331786_proj_tt_section_faculty_course_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bd6fc765db930010281270e23996194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-02 07:19:33</sys_created_on>
+            <sys_id>716fc765db930010281270e23996194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-02 07:19:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fin3</element>
+            <list_id display_value="x_331786_proj_tt_section_faculty_course_mapping" element="NULL" name="x_331786_proj_tt_section_faculty_course_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bd6fc765db930010281270e23996194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-02 07:19:33</sys_created_on>
+            <sys_id>f16fc765db930010281270e23996194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-02 07:19:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>n1_class</element>
+            <list_id display_value="x_331786_proj_tt_section_faculty_course_mapping" element="NULL" name="x_331786_proj_tt_section_faculty_course_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bd6fc765db930010281270e23996194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-02 07:19:33</sys_created_on>
+            <sys_id>756fc765db930010281270e23996194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-02 07:19:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>num2_class</element>
+            <list_id display_value="x_331786_proj_tt_section_faculty_course_mapping" element="NULL" name="x_331786_proj_tt_section_faculty_course_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bd6fc765db930010281270e23996194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-02 07:19:33</sys_created_on>
+            <sys_id>f56fc765db930010281270e23996194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-02 07:19:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>num3_class</element>
+            <list_id display_value="x_331786_proj_tt_section_faculty_course_mapping" element="NULL" name="x_331786_proj_tt_section_faculty_course_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bd6fc765db930010281270e23996194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-02 07:19:33</sys_created_on>
+            <sys_id>796fc765db930010281270e23996194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-02 07:19:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sec_sel</element>
+            <list_id display_value="x_331786_proj_tt_section_faculty_course_mapping" element="NULL" name="x_331786_proj_tt_section_faculty_course_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bd6fc765db930010281270e23996194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-02 07:19:33</sys_created_on>
+            <sys_id>f96fc765db930010281270e23996194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-02 07:19:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_331786_proj_tt_section_faculty_course_mapping</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-02 07:19:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd6fc765db930010281270e23996194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_331786_proj_tt_section_faculty_course_mapping</sys_name>
+            <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+            <sys_update_name>sys_ui_list_x_331786_proj_tt_section_faculty_course_mapping_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-02 07:19:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

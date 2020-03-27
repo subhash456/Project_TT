@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Subject #6" section_id="bc86b73adb5f0010281270e2399619d4" sys_domain="global" table="x_331786_proj_tt_section_faculty_course_mapping" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-06 11:33:25</sys_created_on>
+            <sys_id>53df200fdbdf0010281270e239961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-06 11:33:25</sys_updated_on>
+            <text/>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>53df200fdbdf0010281270e239961942</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-06 11:33:25</sys_created_on>
+            <sys_id>13df200fdbdf0010281270e239961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Subject #6" display_value="Subject #6" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">bc86b73adb5f0010281270e2399619d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-06 11:33:25</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subject6</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-06 11:33:25</sys_created_on>
+            <sys_id>97df200fdbdf0010281270e239961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Subject #6" display_value="Subject #6" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">bc86b73adb5f0010281270e2399619d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-06 11:33:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fac6_opt</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-06 11:33:25</sys_created_on>
+            <sys_id>1fdf200fdbdf0010281270e239961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Subject #6" display_value="Subject #6" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">bc86b73adb5f0010281270e2399619d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-06 11:33:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-06 11:33:25</sys_created_on>
+            <sys_id>93df200fdbdf0010281270e239961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Subject #6" display_value="Subject #6" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">bc86b73adb5f0010281270e2399619d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-06 11:33:25</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>num6_class</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-06 11:33:25</sys_created_on>
+            <sys_id>1bdf200fdbdf0010281270e239961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Subject #6" display_value="Subject #6" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">bc86b73adb5f0010281270e2399619d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-06 11:33:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-06 11:33:25</sys_created_on>
+            <sys_id>9fdf200fdbdf0010281270e239961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Subject #6" display_value="Subject #6" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">bc86b73adb5f0010281270e2399619d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-06 11:33:25</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>insert_sub6</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-06 11:33:25</sys_created_on>
+            <sys_id>17df200fdbdf0010281270e239961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Subject #6" display_value="Subject #6" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">bc86b73adb5f0010281270e2399619d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-06 11:33:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Subject #6</caption>
+            <header>false</header>
+            <name>x_331786_proj_tt_section_faculty_course_mapping</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-06 07:22:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc86b73adb5f0010281270e2399619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Subject #6</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+            <sys_update_name>sys_ui_section_bc86b73adb5f0010281270e2399619d4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-06 07:22:50</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>caa58fcadbf4fb0442b321c40596196a</instance_id>
+        <instance_name>dev81165</instance_name>
+        <name>sys_ui_section_bc86b73adb5f0010281270e2399619d4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Subject #6" section_id="bc86b73adb5f0010281270e2399619d4" sys_domain="global" table="x_331786_proj_tt_section_faculty_course_mapping" version="3" view=""><sys_ui_annotation action="INSERT_OR_UPDATE"><is_plain_text>false</is_plain_text><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-06 11:33:25</sys_created_on><sys_id>53df200fdbdf0010281270e239961942</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-06 11:33:25</sys_updated_on><text/><type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type></sys_ui_annotation><sys_ui_element action="INSERT_OR_UPDATE"><element>53df200fdbdf0010281270e239961942</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-06 11:33:25</sys_created_on><sys_id>13df200fdbdf0010281270e239961954</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Subject #6" display_value="Subject #6" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">bc86b73adb5f0010281270e2399619d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-06 11:33:25</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>subject6</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-06 11:33:25</sys_created_on><sys_id>97df200fdbdf0010281270e239961954</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Subject #6" display_value="Subject #6" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">bc86b73adb5f0010281270e2399619d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-06 11:33:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>fac6_opt</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-06 11:33:25</sys_created_on><sys_id>1fdf200fdbdf0010281270e239961954</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Subject #6" display_value="Subject #6" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">bc86b73adb5f0010281270e2399619d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-06 11:33:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-06 11:33:25</sys_created_on><sys_id>93df200fdbdf0010281270e239961955</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Subject #6" display_value="Subject #6" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">bc86b73adb5f0010281270e2399619d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-06 11:33:25</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>num6_class</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-06 11:33:25</sys_created_on><sys_id>1bdf200fdbdf0010281270e239961955</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Subject #6" display_value="Subject #6" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">bc86b73adb5f0010281270e2399619d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-06 11:33:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-06 11:33:25</sys_created_on><sys_id>9fdf200fdbdf0010281270e239961955</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Subject #6" display_value="Subject #6" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">bc86b73adb5f0010281270e2399619d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-06 11:33:25</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>insert_sub6</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-06 11:33:25</sys_created_on><sys_id>17df200fdbdf0010281270e239961956</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Subject #6" display_value="Subject #6" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">bc86b73adb5f0010281270e2399619d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-06 11:33:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Subject #6</caption><header>false</header><name>x_331786_proj_tt_section_faculty_course_mapping</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-06 07:22:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bc86b73adb5f0010281270e2399619d4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Subject #6</sys_name><sys_overrides/><sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package><sys_policy/><sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope><sys_update_name>sys_ui_section_bc86b73adb5f0010281270e2399619d4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-06 07:22:50</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-2072962006</payload_hash>
+        <record_name>Form_Section-Faculty Course Mapping</record_name>
+        <reverted_from/>
+        <source>9e16c3eddb530010281270e2399619b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:33:25</sys_created_on>
+        <sys_id>17df200fdbdf0010281270e239961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170af9f1cc30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:33:25</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>9fdf200f17df0010a2d68e7ea6b53457</update_guid>
+        <update_guid_history>9fdf200f17df0010a2d68e7ea6b53457:-2072962006,7ec19c4b239f0010e66ccf6b0aa66a94:1171882146,faf0944b999f001009a55367678e883f:-1134910643,93a67b3a455f00109e359469327bdbb9:237769995,d186f73a0f5f00102a3a0576a9739656:-442855867</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-12 10:22:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>a1361261ea144b658254a9db51f80311</sys_id>
+        <sys_metadata>bc86b73adb5f0010281270e2399619d4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Subject #6</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent display_value="Form_Section-Faculty Course Mapping">da0a87e1db930010281270e2399619f0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sys_ui_section_bc86b73adb5f0010281270e2399619d4</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_bc86b73adb5f0010281270e2399619d4">17df200fdbdf0010281270e239961958</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-12 10:22:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

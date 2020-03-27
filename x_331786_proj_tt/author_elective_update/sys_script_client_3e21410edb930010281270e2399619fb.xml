@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sec_stream</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Section Number Auto Generating</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var str = g_form.getValue('sec_stream');
+    var srm = g_form.getDisplayBox('sec_stream').value;
+    var num;
+    var k = new GlideAjax('getSectionNumber');
+    k.addParam('sysparm_name', 'SectionNumber');
+    k.addParam('stream', str);
+    k.getXML(getc);
+
+    function getc(response) {
+        var y = response.responseXML.documentElement.getAttribute('answer');
+        y = parseInt(y);
+        if (srm == 'Civil Engineering')
+            num = 'CE00' + ++y;
+        else if (srm == 'Bio Technology')
+            num = 'BT00' + ++y;
+        else if (srm == 'Computer Science and Engineering')
+            num = 'CSE00' + ++y;
+        else if (srm == 'Electronics and Communication Engineering')
+            num = 'ECE00' + ++y;
+        else if (srm == 'Mechanical Engineering')
+            num = 'ME00' + ++y;
+        g_form.setValue('number', num);
+        g_form.setReadOnly('number', true);
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 10:16:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e21410edb930010281270e2399619fb</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Section Number Auto Generating</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_script_client_3e21410edb930010281270e2399619fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 11:04:11</sys_updated_on>
+        <table>x_331786_proj_tt_sections</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>caa58fcadbf4fb0442b321c40596196a</instance_id>
+        <instance_name>dev81165</instance_name>
+        <name>sys_script_client_3e21410edb930010281270e2399619fb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;sec_stream&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Section Number Auto Generating&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var str = g_form.getValue('sec_stream');
+    var srm = g_form.getDisplayBox('sec_stream').value;
+    var num;
+    var k = new GlideAjax('getSectionNumber');
+    k.addParam('sysparm_name', 'SectionNumber');
+    k.addParam('stream', str);
+    k.getXML(getc);
+
+    function getc(response) {
+        var y = response.responseXML.documentElement.getAttribute('answer');
+        y = parseInt(y);
+        if (srm == 'Civil Engineering')
+            num = 'CE00' + ++y;
+        else if (srm == 'Bio Technology')
+            num = 'BT00' + ++y;
+        else if (srm == 'Computer Science and Engineering')
+            num = 'CSE00' + ++y;
+        else if (srm == 'Electronics and Communication Engineering')
+            num = 'ECE00' + ++y;
+        else if (srm == 'Mechanical Engineering')
+            num = 'ME00' + ++y;
+        g_form.setValue('number', num);
+        g_form.setReadOnly('number', true);
+    }
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-03-03 10:16:38&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3e21410edb930010281270e2399619fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Section Number Auto Generating&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt"&gt;1616c3eddb530010281270e2399619b4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Project-Time Table Management System"&gt;1616c3eddb530010281270e2399619b4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_3e21410edb930010281270e2399619fb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-03-03 11:04:11&lt;/sys_updated_on&gt;&lt;table&gt;x_331786_proj_tt_sections&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1055102939</payload_hash>
+        <record_name>Section Number Auto Generating</record_name>
+        <reverted_from/>
+        <source>9e16c3eddb530010281270e2399619b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 11:04:11</sys_created_on>
+        <sys_id>3d6c09c2dbd30010281270e2399619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a011445f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 11:04:11</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>b56c09c20ad30010f909e6dc7df5c8a0</update_guid>
+        <update_guid_history>b56c09c20ad30010f909e6dc7df5c8a0:1055102939,7c6689ce55930010feffd26ab2654f09:-1493383517,2e4689ce5b930010859b1691e06c80de:-850944957,fc26058e02930010de7c8979c6545f36:-8465357,aef5c5ce60930010a1ac07fb2b6d9e15:969762013,8d64858ef093001060ddf3f8fd0b2a6a:1738153330,9fb24d0e19930010b4f0f8a9162b37b4:-1746754385,91818dca009300108ebac49c0dc8a7ca:1498061738</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 07:07:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>42dc43aafa924ac6afb86373d739fea4</sys_id>
+        <sys_metadata>3e21410edb930010281270e2399619fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Section Number Auto Generating</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent display_value="">b0a90fa1db930010281270e239961983</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sys_script_client_3e21410edb930010281270e2399619fb</sys_update_name>
+        <sys_update_version display_value="sys_script_client_3e21410edb930010281270e2399619fb">3d6c09c2dbd30010281270e2399619a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 07:07:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="f58d8f65db930010281270e23996192b" sys_domain="global" table="x_331786_proj_tt_section_faculty_course_mapping" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-02 07:11:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c68d8f65db930010281270e23996192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_331786_proj_tt_section_faculty_course_mapping" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">f58d8f65db930010281270e23996192b</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">566a0fa1db930010281270e239961949</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-02 07:11:22</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_331786_proj_tt_section_faculty_course_mapping</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-02 07:11:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f58d8f65db930010281270e23996192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_331786_proj_tt_section_faculty_course_mapping</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f58d8f65db930010281270e23996192b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-02 07:11:22</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

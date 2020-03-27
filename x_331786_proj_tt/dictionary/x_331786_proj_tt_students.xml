@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Students" max_length="40" name="x_331786_proj_tt_students" sizeclass="100" type="collection">
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" dependent="stream" dependent_on_field="stream" label="Section Opted" max_length="32" name="section_opt" reference="x_331786_proj_tt_sections" reference_qual="javascript:&quot;stream=&quot;+current.stream;" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
+            <choice/>
+        </element>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_ac_columns=stream_id" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Stream" mandatory="true" max_length="32" name="stream" reference="x_331786_proj_tt_stream" type="reference">
+            <choice/>
+        </element>
+        <element label="Student ID" mandatory="true" max_length="40" name="stu_id" primary="true" type="integer" unique="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Student Name" mandatory="true" max_length="50" name="stu_name" type="string"/>
+        <index name="index">
+            <element name="stu_id"/>
+        </index>
+        <index name="index2">
+            <element name="section_opt"/>
+        </index>
+        <index name="index3">
+            <element name="stream"/>
+        </index>
+    </element>
+</database>

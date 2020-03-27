@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="DELETE">
+        <css_variables/>
+        <default>false</default>
+        <homepage display_value="hh">0bc8ecf1db970010281270e239961922</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page display_value="login">6995a144cb11120000f8d856634c9c25</login_page>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sqanda_knowledge_base/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 13:49:14</sys_created_on>
+        <sys_id>3078a8f1db970010281270e2399619be</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>tt</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sp_portal_3078a8f1db970010281270e2399619be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 06:45:56</sys_updated_on>
+        <theme/>
+        <title>tt</title>
+        <ts_index_group/>
+        <url_suffix>tt</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="DELETE" query="documentkey=3078a8f1db970010281270e2399619be"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>caa58fcadbf4fb0442b321c40596196a</instance_id>
+        <instance_name>dev81165</instance_name>
+        <name>sp_portal_3078a8f1db970010281270e2399619be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal"><sp_portal action="INSERT_OR_UPDATE"><css_variables/><default>false</default><homepage display_value="hh">0bc8ecf1db970010281270e239961922</homepage><icon/><kb_knowledge_base/><kb_knowledge_page/><login_page display_value="login">6995a144cb11120000f8d856634c9c25</login_page><logo/><notfound_page/><quick_start_config/><sc_catalog/><sc_catalog_page/><sc_category_page/><sp_chat_queue/><sp_rectangle_menu/><sqanda_knowledge_base/><sys_class_name>sp_portal</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-02 13:49:14</sys_created_on><sys_id>3078a8f1db970010281270e2399619be</sys_id><sys_mod_count>1</sys_mod_count><sys_name>tt</sys_name><sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package><sys_policy/><sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope><sys_update_name>sp_portal_3078a8f1db970010281270e2399619be</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-06 06:45:56</sys_updated_on><theme/><title>tt</title><ts_index_group/><url_suffix>tt</url_suffix></sp_portal><sys_translated_text action="delete_multiple" query="documentkey=3078a8f1db970010281270e2399619be"/></record_update>]]></payload>
+        <payload_hash>-12604077</payload_hash>
+        <record_name>tt</record_name>
+        <reverted_from/>
+        <source>9e16c3eddb530010281270e2399619b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 06:45:56</sys_created_on>
+        <sys_id>501ee372db5f0010281270e239961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170ae97ea730000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 06:45:56</sys_updated_on>
+        <type>Service Portal</type>
+        <update_guid>d81ee372425f00101a9cbc9b8fbb3403</update_guid>
+        <update_guid_history>d81ee372425f00101a9cbc9b8fbb3403:-12604077,ce98e8b17a9700102c8e6f28b3f12d75:-798032762</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="tt">835ad0dcdbef0010281270e239961932</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-10 07:11:52</sys_created_on>
+        <sys_db_object display_value="" name="sp_portal">sp_portal</sys_db_object>
+        <sys_id>24a2f636528a4b2a868cf246eeaddee9</sys_id>
+        <sys_metadata>3078a8f1db970010281270e2399619be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tt</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sp_portal_3078a8f1db970010281270e2399619be</sys_update_name>
+        <sys_update_version display_value="sp_portal_3078a8f1db970010281270e2399619be">501ee372db5f0010281270e239961904</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-10 07:11:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

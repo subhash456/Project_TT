@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_331786_proj_tt_sections">x_331786_proj_tt_sections</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>SEC</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 06:55:29</sys_created_on>
+        <sys_id>15e9c3e1db930010281270e2399619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SEC</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_number_15e9c3e1db930010281270e2399619a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-02 06:55:29</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>caa58fcadbf4fb0442b321c40596196a</instance_id>
+        <instance_name>dev81165</instance_name>
+        <name>sys_number_15e9c3e1db930010281270e2399619a7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_331786_proj_tt_sections">x_331786_proj_tt_sections</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>SEC</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-02 06:55:29</sys_created_on><sys_id>15e9c3e1db930010281270e2399619a7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SEC</sys_name><sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package><sys_policy/><sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope><sys_update_name>sys_number_15e9c3e1db930010281270e2399619a7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-02 06:55:29</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-1336265851</payload_hash>
+        <record_name>SEC</record_name>
+        <reverted_from/>
+        <source>9e16c3eddb530010281270e2399619b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 06:55:29</sys_created_on>
+        <sys_id>59e947e1db930010281270e2399619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1709a073a180000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-02 06:55:29</sys_updated_on>
+        <type>Number</type>
+        <update_guid>91e947e12b930010289a57cf14c791ed</update_guid>
+        <update_guid_history>91e947e12b930010289a57cf14c791ed:-1336265851</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 07:11:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>1e92b347f8ec490a88805a8a197fed51</sys_id>
+        <sys_metadata>15e9c3e1db930010281270e2399619a7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SEC</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent display_value="">b0a90fa1db930010281270e239961983</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sys_number_15e9c3e1db930010281270e2399619a7</sys_update_name>
+        <sys_update_version display_value="sys_number_15e9c3e1db930010281270e2399619a7">59e947e1db930010281270e2399619ed</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 07:11:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

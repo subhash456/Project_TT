@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="sec_sel" table="x_331786_proj_tt_section_faculty_course_mapping">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>ref_auto_completer=AJAXReferenceChoice,is_searchable_choice</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Select Section</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>stream_sel</dependent>
+        <dependent_on_field>stream_sel</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sec_sel</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_331786_proj_tt_section_faculty_course_mapping</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_331786_proj_tt_sections">x_331786_proj_tt_sections</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual>javascript:"sec_stream="+current.stream_sel;</reference_qual>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 07:11:23</sys_created_on>
+        <sys_id>ce8d8f65db930010281270e239961973</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Select Section</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_dictionary_x_331786_proj_tt_section_faculty_course_mapping_sec_sel</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 11:09:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>caa58fcadbf4fb0442b321c40596196a</instance_id>
+        <instance_name>dev81165</instance_name>
+        <name>sys_dictionary_x_331786_proj_tt_section_faculty_course_mapping_sec_sel</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="sec_sel" table="x_331786_proj_tt_section_faculty_course_mapping"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>ref_auto_completer=AJAXReferenceChoice,is_searchable_choice</attributes><audit>false</audit><calculation/><choice>1</choice><choice_field/><choice_table/><column_label>Select Section</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent>stream_sel</dependent><dependent_on_field>stream_sel</dependent_on_field><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>sec_sel</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>x_331786_proj_tt_section_faculty_course_mapping</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="x_331786_proj_tt_sections">x_331786_proj_tt_sections</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual>javascript:"sec_stream="+current.stream_sel;</reference_qual><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-02 07:11:23</sys_created_on><sys_id>ce8d8f65db930010281270e239961973</sys_id><sys_mod_count>9</sys_mod_count><sys_name>Select Section</sys_name><sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package><sys_policy/><sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope><sys_update_name>sys_dictionary_x_331786_proj_tt_section_faculty_course_mapping_sec_sel</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-03 11:09:40</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>true</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>advanced</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-607524942</payload_hash>
+        <record_name>Form_Section-Faculty Course Mapping.Select Section</record_name>
+        <reverted_from/>
+        <source>9e16c3eddb530010281270e2399619b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 11:09:40</sys_created_on>
+        <sys_id>42ad8906dbd30010281270e2399619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a016499f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 11:09:40</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>caad8906a2d30010a997bba1aa43f8a9</update_guid>
+        <update_guid_history>caad8906a2d30010a997bba1aa43f8a9:-607524942,4c8d8506f0d30010bc20040c3797ded6:-1634433012,6d5d4506d6d30010659915d2fc10388b:-1009262254,10a12c06ae5300100fa3551d9437808e:-125833805,2b6f1482b4530010228fb3fda892402b:297770196,4737007db7170010ad704112a2cf8f2c:1909146492,97ef0fe574930010da0ac44eaf474073:895079806,94efcbe55c930010ae2b36046e14ff26:-896487091,1d5f43e5b5930010d11a21b780601aa3:624612938,468d8f653893001097a78ff9c7b0ae94:404618113</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 07:11:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>0ab93ab65e6a4e66808c914538fda7a4</sys_id>
+        <sys_metadata>ce8d8f65db930010281270e239961973</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Select Section</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent display_value="Form_Section-Faculty Course Mapping">da0a87e1db930010281270e2399619f0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_331786_proj_tt_section_faculty_course_mapping_sec_sel</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_331786_proj_tt_section_faculty_course_mapping_sec_sel">42ad8906dbd30010281270e2399619aa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 07:11:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

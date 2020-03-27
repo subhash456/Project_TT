@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Stream" max_length="40" name="x_331786_proj_tt_stream" sizeclass="5" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Stream ID" max_length="50" name="stream_id" primary="true" type="string" unique="true"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Stream Name" max_length="50" name="stream_name" type="string"/>
+        <index name="index">
+            <element name="stream_id"/>
+        </index>
+    </element>
+</database>

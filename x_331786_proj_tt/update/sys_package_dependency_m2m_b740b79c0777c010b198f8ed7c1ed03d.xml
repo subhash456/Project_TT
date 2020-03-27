@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">798faf64db210010281270e23996191c</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-23 09:02:20</sys_created_on>
+        <sys_id>b740b79c0777c010b198f8ed7c1ed03d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-23 09:02:20</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_331786_proj_tt.getFaculty</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getFaculty</name>
+        <script><![CDATA[var getFaculty = Class.create();
+getFaculty.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    CourseSysId: function() {
+		var s=this.getParameter('cour');
+        var gr = new GlideRecord('x_331786_proj_tt_courses');
+        gr.addQuery('course_name', s);
+        gr.query();
+        while (gr.next()) {
+            var sec = gr.sys_id;
+        }
+		return sec;
+    },
+    Faculty: function() {
+        var sc = this.getParameter('sub_opt');
+        var faculty = [];
+        var jsonSub;
+        var gr = new GlideRecord('x_331786_proj_tt_faculty');
+        gr.addQuery('sub_opt', sc);
+        gr.query();
+        while (gr.next()) {
+            faculty.push(gr.fac_name.toString());
+            jsonSub = JSON.stringify(faculty);
+        }
+        return jsonSub;
+    },
+
+    type: 'getFaculty'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 09:31:13</sys_created_on>
+        <sys_id>a480ca52db930010281270e239961953</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>getFaculty</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_script_include_a480ca52db930010281270e239961953</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 10:17:46</sys_updated_on>
+    </sys_script_include>
+</record_update>

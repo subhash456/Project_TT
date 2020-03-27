@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="sec_stream" table="x_331786_proj_tt_sections">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>ref_auto_completer=AJAXReferenceChoice,is_searchable_choice</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Section Stream</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sec_stream</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <name>x_331786_proj_tt_sections</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_331786_proj_tt_stream">x_331786_proj_tt_stream</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 06:55:18</sys_created_on>
+        <sys_id>a6d907e1db930010281270e2399619ec</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Section Stream</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_dictionary_x_331786_proj_tt_sections_sec_stream</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 10:14:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>caa58fcadbf4fb0442b321c40596196a</instance_id>
+        <instance_name>dev81165</instance_name>
+        <name>sys_dictionary_x_331786_proj_tt_sections_sec_stream</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="sec_stream" table="x_331786_proj_tt_sections"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>ref_auto_completer=AJAXReferenceChoice,is_searchable_choice</attributes><audit>false</audit><calculation/><choice>1</choice><choice_field/><choice_table/><column_label>Section Stream</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>sec_stream</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>true</mandatory><max_length>32</max_length><name>x_331786_proj_tt_sections</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="x_331786_proj_tt_stream">x_331786_proj_tt_stream</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-02 06:55:18</sys_created_on><sys_id>a6d907e1db930010281270e2399619ec</sys_id><sys_mod_count>12</sys_mod_count><sys_name>Section Stream</sys_name><sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package><sys_policy/><sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope><sys_update_name>sys_dictionary_x_331786_proj_tt_sections_sec_stream</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-03 10:14:39</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>2039857936</payload_hash>
+        <record_name>Sections.Section Stream</record_name>
+        <reverted_from/>
+        <source>9e16c3eddb530010281270e2399619b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 10:14:39</sys_created_on>
+        <sys_id>9c11010edb930010281270e2399619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1709fe3ebde0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 10:14:39</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>1811010e65930010313d25efe2c095bb</update_guid>
+        <update_guid_history>1811010e65930010313d25efe2c095bb:2039857936,0801cdcac0930010f3ba2872d6555a50:1287572302,844fdc42c9530010a155e3b8b1ed8107:-1074920209,858304b9a2170010f3ab16dfa47b9eb7:1519781771,254300b938170010b059c65bfdd65e54:-1672409204,144108398d170010ae5b4c93e797640b:943176868,81f08cf5aa17001016d8087db172d869:-204255324,8d50c8f5fa1700104df9f337bbbaaf6a:-1672409204,97ab7fe17517001002968f187fd4419f:1519781771,34ab3fe1f2170010ab6768f5e13f9975:226474074,a8dab3e1da1700105536a7732df09740:1311604652,28401329dd9300106e01be6f1454240e:-186197655,22d947e1a0930010318bc5420660dd49:-1826644391</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 07:07:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>2e8b0f8d251649ff88a3115e612b10f1</sys_id>
+        <sys_metadata>a6d907e1db930010281270e2399619ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Section Stream</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent display_value="">b0a90fa1db930010281270e239961983</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_331786_proj_tt_sections_sec_stream</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_331786_proj_tt_sections_sec_stream">9c11010edb930010281270e2399619bb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 07:07:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

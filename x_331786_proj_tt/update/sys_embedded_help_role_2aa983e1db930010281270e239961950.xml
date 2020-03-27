@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_331786_proj_tt.sections_user" name="x_331786_proj_tt.sections_user">2ea9cba1db930010281270e239961929</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 06:54:29</sys_created_on>
+        <sys_id>2aa983e1db930010281270e239961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2ea9cba1db930010281270e239961929</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_embedded_help_role_2aa983e1db930010281270e239961950</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-02 06:54:29</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
