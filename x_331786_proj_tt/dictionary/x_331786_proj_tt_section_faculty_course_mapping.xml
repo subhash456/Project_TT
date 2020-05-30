@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Form_Section-Faculty Course Mapping" max_length="40" name="x_331786_proj_tt_section_faculty_course_mapping" sizeclass="1" type="collection">
-        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" dependent="subject1" dependent_on_field="subject1" display="true" label="Faculty Opted" max_length="32" name="fac1_opt" reference_qual="javascript:&#13;&#10;var sec;&#13;&#10;var gr = new GlideRecord('x_331786_proj_tt_courses');&#13;&#10;gr.addQuery('course_name', 'CSE');&#13;&#10;gr.query();&#13;&#10;while (gr.next()) {&#13;&#10;     sec = gr.sys_id;&#13;&#10;}&#13;&#10;&quot;sub_opt=&quot;+sec;" type="choice" use_dependent_field="true" use_reference_qualifier="advanced">
+    <element label="Form_Section-Faculty Course Mapping" max_length="40" name="x_331786_proj_tt_section_faculty_course_mapping" sizeclass="0" type="collection">
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject1" choice="1" display="true" label="Faculty Opted" max_length="32" name="fac1_opt" reference="x_331786_proj_tt_faculty" reference_qual="javascript:&quot;sub_opt=&quot;+current.subject1;&#13;&#10;" type="reference" use_reference_qualifier="advanced">
             <choice/>
         </element>
-        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" dependent="subject2" dependent_on_field="subject2" label="Faculty Opted" max_length="32" name="fac2_opt" type="choice" use_dependent_field="true">
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject2" choice="1" label="Faculty Opted" max_length="32" name="fac2_opt" reference="x_331786_proj_tt_faculty" reference_qual="javascript:&quot;sub_opt=&quot;+current.subject2;" type="reference" use_reference_qualifier="advanced">
             <choice/>
         </element>
-        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" label="Faculty Opted" max_length="32" name="fac3_opt" type="choice">
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject3" choice="1" label="Faculty Opted" max_length="32" name="fac3_opt" reference="x_331786_proj_tt_faculty" reference_qual="javascript:&quot;sub_opt=&quot;+current.subject3;" type="reference" use_reference_qualifier="advanced">
             <choice/>
         </element>
-        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" label="Faculty Opted" max_length="40" name="fac4_opt" type="choice">
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject4" choice="1" label="Faculty Opted" max_length="40" name="fac4_opt" reference="x_331786_proj_tt_faculty" reference_qual="javascript:&quot;sub_opt=&quot;+current.subject4;" type="reference" use_reference_qualifier="advanced">
             <choice/>
         </element>
-        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" label="Faculty Opted" max_length="40" name="fac5_opt" type="choice">
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject5" choice="1" label="Faculty Opted" max_length="40" name="fac5_opt" reference="x_331786_proj_tt_faculty" reference_qual="javascript:&quot;sub_opt=&quot;+current.subject5;" type="reference" use_reference_qualifier="advanced">
             <choice/>
         </element>
-        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" label="Faculty Opted" max_length="32" name="fac6_opt" type="choice">
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject6" choice="1" label="Faculty Opted" max_length="32" name="fac6_opt" reference="x_331786_proj_tt_faculty" reference_qual="javascript:&quot;sub_opt=&quot;+current.subject6;" type="reference" use_reference_qualifier="advanced">
             <choice/>
         </element>
         <element label="Add Subject 2" max_length="40" name="insert_sub1" type="boolean"/>
@@ -84,18 +84,30 @@
                 <element inactive_on_update="false" label="6" sequence="5" value="6"/>
             </choice>
         </element>
-        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" dependent="stream" dependent_on_field="stream" label="Select Section" max_length="32" name="number" primary="true" reference="x_331786_proj_tt_sections" reference_qual="javascript:&quot;stream=&quot;+current.stream;" type="reference" unique="true" use_dependent_field="true" use_reference_qualifier="advanced">
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" dependent="stream" dependent_on_field="stream" label="Select Section" max_length="32" name="number" primary="true" reference="x_331786_proj_tt_sections" type="reference" unique="true" use_dependent_field="true">
             <choice/>
         </element>
         <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" label="Select Stream" mandatory="true" max_length="32" name="stream" reference="x_331786_proj_tt_stream" type="reference">
             <choice/>
         </element>
-        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" label="Subject #1" max_length="40" name="subject1" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Subject #2" max_length="40" name="subject2" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Subject #3" max_length="40" name="subject3" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Subject #4" max_length="40" name="subject4" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Subject #5" max_length="40" name="subject5" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Subject #6" max_length="40" name="subject6" type="string"/>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" dependent="stream" dependent_on_field="stream" label="Subject #1" max_length="40" name="subject1" reference="x_331786_proj_tt_courses" type="reference" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject1" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Subject #2" max_length="40" name="subject2" reference="x_331786_proj_tt_courses" reference_qual="javascript:'stream='+current.stream+'^sys_id!='+current.subject1;" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
+            <choice/>
+        </element>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject2" choice="1" label="Subject #3" max_length="40" name="subject3" reference="x_331786_proj_tt_courses" reference_qual="javascript: 'stream='+current.stream+'^sys_id!='+current.subject1+'^sys_id!='+current.subject2;" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
+            <choice/>
+        </element>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject3" choice="1" label="Subject #4" max_length="40" name="subject4" reference="x_331786_proj_tt_courses" reference_qual="javascript: 'stream='+current.stream+'^sys_id!='+current.subject1+'^sys_id!='+current.subject2+'^sys_id!='+current.subject3;" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
+            <choice/>
+        </element>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject4" choice="1" dependent="stream" dependent_on_field="stream" label="Subject #5" max_length="40" name="subject5" reference="x_331786_proj_tt_courses" reference_qual="javascript: 'stream='+current.stream+'^sys_id!='+current.subject1+'^sys_id!='+current.subject2+'^sys_id!='+current.subject3+'^sys_id!='+current.subject4;" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
+            <choice/>
+        </element>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject5" choice="1" label="Subject #6" max_length="40" name="subject6" reference="x_331786_proj_tt_courses" reference_qual="javascript: 'stream='+current.stream+'^sys_id!='+current.subject1+'^sys_id!='+current.subject2+'^sys_id!='+current.subject3+'^sys_id!='+current.subject4+'^sys_id!='+current.subject5;" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
+            <choice/>
+        </element>
         <index name="index">
             <element name="fac3_opt"/>
         </index>

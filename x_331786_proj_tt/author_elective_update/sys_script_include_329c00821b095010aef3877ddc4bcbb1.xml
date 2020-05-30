@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_331786_proj_tt.getSubject2</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getSubject2</name>
+        <script><![CDATA[var getSubject2 = Class.create();
+getSubject2.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	Subject2: function() {
+		var subject=current.subject1;
+		var stream=current.stream;
+		gs.addErrorMessage(subject);
+		gs.addInfoMessage(stream);
+		return 'stream='+stream+'^sys_id='+subject;
+    },
+
+
+    type: 'getSubject2'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 06:16:15</sys_created_on>
+        <sys_id>329c00821b095010aef3877ddc4bcbb1</sys_id>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name>getSubject2</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_script_include_329c00821b095010aef3877ddc4bcbb1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-30 06:48:10</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>d0dcb113dbbabb0452cec5970596190f</instance_id>
+        <instance_name>dev89329</instance_name>
+        <name>sys_script_include_329c00821b095010aef3877ddc4bcbb1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_331786_proj_tt.getSubject2&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;getSubject2&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var getSubject2 = Class.create();
+getSubject2.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	Subject2: function() {
+		var subject=current.subject1;
+		var stream=current.stream;
+		gs.addErrorMessage(subject);
+		gs.addInfoMessage(stream);
+		return 'stream='+stream+'^sys_id='+subject;
+    },
+
+
+    type: 'getSubject2'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-29 06:16:15&lt;/sys_created_on&gt;&lt;sys_id&gt;329c00821b095010aef3877ddc4bcbb1&lt;/sys_id&gt;&lt;sys_mod_count&gt;35&lt;/sys_mod_count&gt;&lt;sys_name&gt;getSubject2&lt;/sys_name&gt;&lt;sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt"&gt;1616c3eddb530010281270e2399619b4&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Project-Time Table Management System"&gt;1616c3eddb530010281270e2399619b4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_329c00821b095010aef3877ddc4bcbb1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-30 06:48:10&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1178798517</payload_hash>
+        <record_name>getSubject2</record_name>
+        <reverted_from/>
+        <source>bbfb1cbd07778410b198f8ed7c1ed0e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-30 06:48:10</sys_created_on>
+        <sys_id>2dbd19121b459010aef3877ddc4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172645680d40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-30 06:48:10</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>65bd19127f459010ed255a66cf9e254b</update_guid>
+        <update_guid_history>65bd19127f459010ed255a66cf9e254b:-1178798517,bc1bd55e9405901077e9f8fdb3e2bbae:1662845217,24e6999a20059010a4302e3f30059028:1934819337,e9e1111a98059010aedc61848dad919c:-222346208,dea1dd965e0590100130a4ad3d155893:-972229242,c7711dd629059010d8c02bf06fe196ea:1544469434,4ad2b84e09495010bea90e15b87fce05:-1722424157,2c62704e074950109118d87b07bb8f00:1326039052,df91bc8aa4495010f2b91309b40541db:184772624,6e35980a3e095010c5ac66138768ce94:1211851233,8815104aee095010dd0f3cdbeed4c9b3:-1405753503,7de4104a290950108e41037a651aefbc:2094307879,7794d40a90095010a0835df8f4a3acc5:-1498872063,9414540adf0950101f8d63926159585d:-822907741,1ec3d00a7c095010e30bad54c75ad92c:516039636,ae23dcc69e095010f23a796cf163ebdf:79288735,6d03d0c6d309501049c33f6bd9e4af1b:1575070285,0b8218c6b709501021cbfc11548bb2bb:-1899496236,a162d0c637095010d52baf097cb2738e:1697848059,cd2210c624095010342fb8960188314a:-752831622,5c9110c6890950100cef85b0e86e672b:1594371054,0251d486680950106e96e143b42e5fd6:794238127,2921588634095010b8169201f2ce8026:-482419586,8be0188662095010c01a2493e41fc029:1823404894,5fc01c4687095010e3d23a2cf8bc76ac:43556298,2f505086be095010ae5ee3d61a5720e2:-579864854,17301086b90950106fd9e6f5c0e49724:869648506,97ef48469e09501034c0d9a222ca6933:1823404894,c9bfc446f10950101f79bd30ac561afc:-1176650040,077f4806210950104d54ce3d80dfa5ab:-1674010140,793f044660095010d80a1805f6986123:2057957360,1e0fcc06c9095010e4b8f208b06e50d5:-1691141584,58de880620095010627b4ca43355c8b8:-963687226,ec3ec4c25c0950104f0484c917ec86d2:1984906797,b49d88c2b6095010564c9ba65bcfdd74:-1948734170,d8dc88c2ec095010df5c5548c65765ac:-1553086937</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-30 06:59:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>bb783215c7c14cd68ad513dfb38a5e64</sys_id>
+        <sys_metadata>329c00821b095010aef3877ddc4bcbb1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getSubject2</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sys_script_include_329c00821b095010aef3877ddc4bcbb1</sys_update_name>
+        <sys_update_version display_value="sys_script_include_329c00821b095010aef3877ddc4bcbb1">2dbd19121b459010aef3877ddc4bcb4b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-30 06:59:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

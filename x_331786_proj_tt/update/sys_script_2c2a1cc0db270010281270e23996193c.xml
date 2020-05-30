@@ -30,8 +30,8 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
-    var x = current.subject3;
-    var y = current.fac3_opt;
+    var x = current.subject3.getDisplayValue();
+    var y = current.fac3_opt.getDisplayValue();
     var s = current.getDisplayValue('number');
     var num = current.num3_class;
     var se = s;
@@ -40,37 +40,37 @@
     while (sc < num) {
         var z = Math.floor(Math.random() * (6)) + 1;
         if (z == 1 && flag[0] == 0) {
-            var n = getDay(x, y, se, 'monday');
+            var n = getDay(x, y, se, '1');
             if (n == 0) {
                 sc++;
                 flag[0] = 1;
             }
         } else if (z == 2 && flag[1] == 0) {
-            var n1 = getDay(x, y, se, 'tuesday');
+            var n1 = getDay(x, y, se, '2');
             if (n1 == 0) {
                 sc++;
                 flag[1] = 1;
             }
         } else if (z == 3 && flag[2] == 0) {
-            var n2 = getDay(x, y, se, 'wednesday');
+            var n2 = getDay(x, y, se, '3');
             if (n2 == 0) {
                 sc++;
                 flag[2] = 1;
             }
         } else if (z == 4 && flag[3] == 0) {
-            var n3 = getDay(x, y, se, 'thursday');
+            var n3 = getDay(x, y, se, '4');
             if (n3 == 0) {
                 sc++;
                 flag[3] = 1;
             }
         } else if (z == 5 && flag[4] == 0) {
-            var n4 = getDay(x, y, se, 'friday');
+            var n4 = getDay(x, y, se, '5');
             if (n4 == 0) {
                 sc++;
                 flag[4] = 1;
             }
         } else if (z == 6 && flag[5] == 0) {
-            var n5 = getDay(x, y, se, 'saturday');
+            var n5 = getDay(x, y, se, '6');
             if (n5 == 0) {
                 sc++;
                 flag[5] = 1;
@@ -85,7 +85,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2c2a1cc0db270010281270e23996193c</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Add Subject3 to TT</sys_name>
         <sys_overrides/>
         <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
@@ -93,7 +93,7 @@
         <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
         <sys_update_name>sys_script_2c2a1cc0db270010281270e23996193c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-09 13:28:16</sys_updated_on>
+        <sys_updated_on>2020-05-30 07:13:49</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

@@ -3,10 +3,10 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes>ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject3</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Subject #4</column_label>
@@ -27,7 +27,7 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_331786_proj_tt_section_faculty_course_mapping</name>
@@ -35,11 +35,11 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_331786_proj_tt_courses">x_331786_proj_tt_courses</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual/>
+        <reference_qual>javascript: 'stream='+current.stream+'^sys_id!='+current.subject1+'^sys_id!='+current.subject2+'^sys_id!='+current.subject3;</reference_qual>
         <reference_qual_condition/>
         <reference_type/>
         <sizeclass/>
@@ -49,20 +49,20 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 07:15:07</sys_created_on>
         <sys_id>1ef7940edb130010281270e23996194c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Subject #4</sys_name>
         <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
         <sys_update_name>sys_dictionary_x_331786_proj_tt_section_faculty_course_mapping_subject4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:15:07</sys_updated_on>
+        <sys_updated_on>2020-05-30 06:54:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <virtual>false</virtual>
         <widget/>
         <write_roles/>

@@ -13,7 +13,7 @@
     while (set == 0) {
         var gr = new GlideRecord('x_331786_proj_tt_final_time_table');
         gr.addQuery('secfac', f);
-        gr.addQuery('u_choice_3', da);
+        gr.addQuery('day', da);
         gr.query();
         while (gr.next()) {
             var v1 = gr.p1 + ' ';
@@ -26,7 +26,7 @@
             var v8 = gr.p8 + ' ';
             var gs = new GlideRecord('x_331786_proj_tt_final_time_table');
             gs.addQuery('secfac', id);
-            gs.addQuery('u_choice_3', da);
+            gs.addQuery('day', da);
             gs.query();
             while (gs.next()) {
                 var s1 = gs.p1 + ' ';
@@ -110,13 +110,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-05 13:03:34</sys_created_on>
         <sys_id>5daa7b2edbd30010281270e23996197b</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>getDay</sys_name>
         <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
         <sys_update_name>sys_script_include_5daa7b2edbd30010281270e23996197b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-09 13:28:41</sys_updated_on>
+        <sys_updated_on>2020-05-27 10:14:34</sys_updated_on>
     </sys_script_include>
 </record_update>

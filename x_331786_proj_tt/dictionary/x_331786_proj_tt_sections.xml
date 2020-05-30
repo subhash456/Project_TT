@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Sections" max_length="40" name="x_331786_proj_tt_sections" sizeclass="7" type="collection">
+    <element label="Sections" max_length="40" name="x_331786_proj_tt_sections" sizeclass="8" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" primary="true" type="string" unique="true"/>
         <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" label="Select Stream" max_length="32" name="stream" reference="x_331786_proj_tt_stream" type="reference">
             <choice/>

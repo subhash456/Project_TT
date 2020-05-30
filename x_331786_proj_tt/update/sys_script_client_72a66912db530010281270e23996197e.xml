@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
@@ -14,6 +14,7 @@
     if (isLoading || newValue === '') {
         return;
     }
+	g_form.setReadOnly('stream',true);
     var str = g_form.getValue('stream');
     try {
         var k = new GlideAjax('getCourses');
@@ -46,7 +47,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>72a66912db530010281270e23996197e</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name>StreamToSubjectMap</sys_name>
         <sys_overrides/>
         <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
@@ -54,7 +55,7 @@
         <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
         <sys_update_name>sys_script_client_72a66912db530010281270e23996197e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-12 10:44:25</sys_updated_on>
+        <sys_updated_on>2020-05-28 06:16:03</sys_updated_on>
         <table>x_331786_proj_tt_section_faculty_course_mapping</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

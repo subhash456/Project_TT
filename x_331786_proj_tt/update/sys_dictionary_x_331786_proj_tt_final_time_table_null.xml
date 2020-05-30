@@ -47,21 +47,21 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>120</sizeclass>
+        <sizeclass>108</sizeclass>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-02 07:45:16</sys_created_on>
         <sys_id>ea459fe9db930010281270e2399619b6</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>x_331786_proj_tt_final_time_table</sys_name>
         <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
         <sys_update_name>sys_dictionary_x_331786_proj_tt_final_time_table_null</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-03-24 08:47:37</sys_updated_on>
+        <sys_updated_on>2020-05-28 08:47:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -17,37 +17,37 @@
         g_form.setReadOnly('subject1', true);
         g_form.setReadOnly('fac1_opt', true);
         g_form.setReadOnly('n1_class', true);
-        g_form.setReadOnly('insert_sub1', true);
+        //g_form.setReadOnly('insert_sub1', true);
     }
     if (g_form.getValue('fac2_opt') != '') {
         g_form.setReadOnly('subject2', true);
         g_form.setReadOnly('fac2_opt', true);
         g_form.setReadOnly('num2_class', true);
-        g_form.setReadOnly('insert_sub2', true);
+        //g_form.setReadOnly('insert_sub2', true);
     }
     if (g_form.getValue('fac3_opt') != '') {
         g_form.setReadOnly('subject3', true);
         g_form.setReadOnly('fac3_opt', true);
         g_form.setReadOnly('num3_class', true);
-        g_form.setReadOnly('insert_sub3', true);
+        //g_form.setReadOnly('insert_sub3', true);
     }
     if (g_form.getValue('fac4_opt') != '') {
         g_form.setReadOnly('subject4', true);
         g_form.setReadOnly('fac4_opt', true);
         g_form.setReadOnly('num4_class', true);
-        g_form.setReadOnly('insert_sub4', true);
+        //g_form.setReadOnly('insert_sub4', true);
     }
     if (g_form.getValue('fac5_opt') != '') {
         g_form.setReadOnly('subject5', true);
         g_form.setReadOnly('fac5_opt', true);
         g_form.setReadOnly('num5_class', true);
-        g_form.setReadOnly('insert_sub5', true);
+        //g_form.setReadOnly('insert_sub5', true);
     }
     if (g_form.getValue('fac6_opt') != '') {
         g_form.setReadOnly('subject6', true);
         g_form.setReadOnly('fac6_opt', true);
         g_form.setReadOnly('num6_class', true);
-        g_form.setReadOnly('insert_sub6', true);
+        //g_form.setReadOnly('insert_sub6', true);
     }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -56,7 +56,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3af8c0c3db9f0010281270e23996199d</sys_id>
-        <sys_mod_count>75</sys_mod_count>
+        <sys_mod_count>76</sys_mod_count>
         <sys_name>Hide Form</sys_name>
         <sys_overrides/>
         <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
@@ -64,7 +64,7 @@
         <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
         <sys_update_name>sys_script_client_3af8c0c3db9f0010281270e23996199d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-13 06:21:10</sys_updated_on>
+        <sys_updated_on>2020-05-28 05:55:34</sys_updated_on>
         <table>x_331786_proj_tt_section_faculty_course_mapping</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
