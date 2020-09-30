@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate there is at least one record in 'x_331786_proj_tt_final_time_table' matching query:
+Section/Faculty starts with S.Saroj
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 11:21:38</sys_created_on>
+        <sys_id>8aedaaad1b231010aef3877ddc4bcb86</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_atf_step_8aedaaad1b231010aef3877ddc4bcb86</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 10:28:54</sys_updated_on>
+        <table>x_331786_proj_tt_final_time_table</table>
+        <test display_value="">60d6aae51b231010aef3877ddc4bcbff</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=8aedaaad1b231010aef3877ddc4bcb86"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>8aedaaad1b231010aef3877ddc4bcb86</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 11:21:38</sys_created_on>
+        <sys_id>014e6aad1b231010aef3877ddc4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 11:21:38</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">02fb0027531000109e02ddeeff7b120b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>8aedaaad1b231010aef3877ddc4bcb86</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 11:21:38</sys_created_on>
+        <sys_id>0d4e6aad1b231010aef3877ddc4bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 11:21:38</sys_updated_on>
+        <value>records_match_query</value>
+        <variable display_value="">b86c0427531000109e02ddeeff7b1227</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>8aedaaad1b231010aef3877ddc4bcb86</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 11:21:38</sys_created_on>
+        <sys_id>854e6aad1b231010aef3877ddc4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 11:21:38</sys_updated_on>
+        <value>secfacSTARTSWITHS.Saroj^EQ</value>
+        <variable display_value="">915990ab531000109e02ddeeff7b12f8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>8aedaaad1b231010aef3877ddc4bcb86</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 11:21:38</sys_created_on>
+        <sys_id>c14e6aad1b231010aef3877ddc4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 11:21:38</sys_updated_on>
+        <value>x_331786_proj_tt_final_time_table</value>
+        <variable display_value="">78b8d86b531000109e02ddeeff7b12f3</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>d0dcb113dbbabb0452cec5970596190f</instance_id>
+        <instance_name>dev89329</instance_name>
+        <name>sys_atf_step_8aedaaad1b231010aef3877ddc4bcb86</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Validate there is at least one record in 'x_331786_proj_tt_final_time_table' matching query:
+Section/Faculty starts with S.Saroj
+With a failure timeout of 5 Seconds</description><display_name>Record Query</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><snapshot/><step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-29 11:21:38</sys_created_on><sys_id>8aedaaad1b231010aef3877ddc4bcb86</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Record Query</sys_name><sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package><sys_policy/><sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope><sys_update_name>sys_atf_step_8aedaaad1b231010aef3877ddc4bcb86</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-30 10:28:54</sys_updated_on><table>x_331786_proj_tt_final_time_table</table><test display_value="">60d6aae51b231010aef3877ddc4bcbff</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=8aedaaad1b231010aef3877ddc4bcb86"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>8aedaaad1b231010aef3877ddc4bcb86</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-29 11:21:38</sys_created_on><sys_id>014e6aad1b231010aef3877ddc4bcb1e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-29 11:21:38</sys_updated_on><value>0</value><variable display_value="">02fb0027531000109e02ddeeff7b120b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>8aedaaad1b231010aef3877ddc4bcb86</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-29 11:21:38</sys_created_on><sys_id>0d4e6aad1b231010aef3877ddc4bcb1d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-29 11:21:38</sys_updated_on><value>records_match_query</value><variable display_value="">b86c0427531000109e02ddeeff7b1227</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>8aedaaad1b231010aef3877ddc4bcb86</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-29 11:21:38</sys_created_on><sys_id>854e6aad1b231010aef3877ddc4bcb1e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-29 11:21:38</sys_updated_on><value>secfacSTARTSWITHS.Saroj^EQ</value><variable display_value="">915990ab531000109e02ddeeff7b12f8</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>8aedaaad1b231010aef3877ddc4bcb86</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-29 11:21:38</sys_created_on><sys_id>c14e6aad1b231010aef3877ddc4bcb1e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-29 11:21:38</sys_updated_on><value>x_331786_proj_tt_final_time_table</value><variable display_value="">78b8d86b531000109e02ddeeff7b12f3</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>806025092</payload_hash>
+        <record_name>Record Query</record_name>
+        <reverted_from/>
+        <source>bbfb1cbd07778410b198f8ed7c1ed0e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 10:28:54</sys_created_on>
+        <sys_id>9ecb27b11b631010aef3877ddc4bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174de8ecb0a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 10:28:54</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>96cb27b1ed6310104e514d3a6bf41a7b</update_guid>
+        <update_guid_history>96cb27b1ed6310104e514d3a6bf41a7b:806025092,96cb27b16363101009c01cfcf1db406e:1753167173,514e6aad56231010154cce9f4a81a920:25437932</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 10:28:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>845760676ed84b90bfdce1cd406a7840</sys_id>
+        <sys_metadata>8aedaaad1b231010aef3877ddc4bcb86</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sys_atf_step_8aedaaad1b231010aef3877ddc4bcb86</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_8aedaaad1b231010aef3877ddc4bcb86">9ecb27b11b631010aef3877ddc4bcb7b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 10:28:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

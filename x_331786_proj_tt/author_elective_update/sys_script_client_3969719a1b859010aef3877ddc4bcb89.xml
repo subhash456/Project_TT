@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>insert_sub1</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>onLoad</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    g_form.setSectionDisplay('fill_subject1details', false);
+    g_form.setSectionDisplay('fill_subject2details', false);
+    g_form.setSectionDisplay('fill_subject3details', false);
+    g_form.setSectionDisplay('fill_subject4details', false);
+    g_form.setSectionDisplay('fill_subject5details', false);
+    g_form.setSectionDisplay('fill_subject6details', false);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-30 08:49:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3969719a1b859010aef3877ddc4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onLoad</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_script_client_3969719a1b859010aef3877ddc4bcb89</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-30 08:49:53</sys_updated_on>
+        <table>x_331786_proj_tt_section_faculty_course_mapping</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>d0dcb113dbbabb0452cec5970596190f</instance_id>
+        <instance_name>dev89329</instance_name>
+        <name>sys_script_client_3969719a1b859010aef3877ddc4bcb89</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;insert_sub1&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;onLoad&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    g_form.setSectionDisplay('fill_subject1details', false);
+    g_form.setSectionDisplay('fill_subject2details', false);
+    g_form.setSectionDisplay('fill_subject3details', false);
+    g_form.setSectionDisplay('fill_subject4details', false);
+    g_form.setSectionDisplay('fill_subject5details', false);
+    g_form.setSectionDisplay('fill_subject6details', false);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-30 08:49:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3969719a1b859010aef3877ddc4bcb89&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;onLoad&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt"&gt;1616c3eddb530010281270e2399619b4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Project-Time Table Management System"&gt;1616c3eddb530010281270e2399619b4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_3969719a1b859010aef3877ddc4bcb89&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-30 08:49:53&lt;/sys_updated_on&gt;&lt;table&gt;x_331786_proj_tt_section_faculty_course_mapping&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1488589668</payload_hash>
+        <record_name>onLoad</record_name>
+        <reverted_from/>
+        <source>bbfb1cbd07778410b198f8ed7c1ed0e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-30 08:49:53</sys_created_on>
+        <sys_id>a099319a1b859010aef3877ddc4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17264c5f0960000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-30 08:49:53</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>e899319a6b859010d35191560c06fd5f</update_guid>
+        <update_guid_history>e899319a6b859010d35191560c06fd5f:1488589668</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-30 08:57:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>3581f33286ee4b00925d5a366d500640</sys_id>
+        <sys_metadata>3969719a1b859010aef3877ddc4bcb89</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onLoad</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent display_value="Form_Section-Faculty Course Mapping">da0a87e1db930010281270e2399619f0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sys_script_client_3969719a1b859010aef3877ddc4bcb89</sys_update_name>
+        <sys_update_version display_value="sys_script_client_3969719a1b859010aef3877ddc4bcb89">a099319a1b859010aef3877ddc4bcb60</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-30 08:57:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

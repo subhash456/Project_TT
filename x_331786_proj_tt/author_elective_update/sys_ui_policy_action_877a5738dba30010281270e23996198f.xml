@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>subject1</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-12 10:28:24</sys_created_on>
+        <sys_id>877a5738dba30010281270e23996198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>subject1</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_ui_policy_action_877a5738dba30010281270e23996198f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-12 10:28:24</sys_updated_on>
+        <table>x_331786_proj_tt_section_faculty_course_mapping</table>
+        <ui_policy display_value="Shows Subject1">fe0a1338dba30010281270e23996198e</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>d0dcb113dbbabb0452cec5970596190f</instance_id>
+        <instance_name>dev89329</instance_name>
+        <name>sys_ui_policy_action_877a5738dba30010281270e23996198f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>subject1</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-12 10:28:24</sys_created_on><sys_id>877a5738dba30010281270e23996198f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>subject1</sys_name><sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package><sys_policy/><sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope><sys_update_name>sys_ui_policy_action_877a5738dba30010281270e23996198f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-12 10:28:24</sys_updated_on><table>x_331786_proj_tt_section_faculty_course_mapping</table><ui_policy display_value="Shows Subject1">fe0a1338dba30010281270e23996198e</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-245820771</payload_hash>
+        <record_name>subject1</record_name>
+        <reverted_from display_value="sys_ui_policy_action_877a5738dba30010281270e23996198f">dd8a5338dba30010281270e2399619e9</reverted_from>
+        <source>9e16c3eddb530010281270e2399619b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-30 09:03:21</sys_created_on>
+        <sys_id>b9acbd521bc59010aef3877ddc4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17264d2451c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-30 09:03:21</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>39acbd52f2c590107cde48f978204dc6</update_guid>
+        <update_guid_history>39acbd52f2c590107cde48f978204dc6:-245820771,8da7391a3f859010d12dbeedbce0d15c:1660637342,198a53382ba30010bef18905ad49d9e9:-245820771</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 10:01:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>28bb8dffd1c549e8995c9cc38cbcd524</sys_id>
+        <sys_metadata>877a5738dba30010281270e23996198f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>subject1</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_877a5738dba30010281270e23996198f</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_877a5738dba30010281270e23996198f">b9acbd521bc59010aef3877ddc4bcbc7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 10:01:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

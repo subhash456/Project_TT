@@ -4,32 +4,17 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>subject6</field>
+        <field>insert_sub5</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Sub6FacMap</name>
+        <name>Show Subject6</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
     if (isLoading || newValue === '') {
         return;
     }
-    g_form.clearOptions('fac6_opt');
-    var s = g_form.getValue('subject6');
-    var kn = new GlideAjax('getFaculty');
-    kn.addParam('sysparm_name', 'Faculty');
-    kn.addParam('sub_opt', s);
-    kn.getXML(getf);
-
-    function getf(response) {
-        var e = response.responseXML.documentElement.getAttribute('answer');
-        var fields = [];
-        fields = JSON.parse(e);
-        for (var count = 0; count < fields.length; count++) {
-            g_form.addOption('fac6_opt', fields[count], fields[count]);
-        }
-    }
-	g_form.setReadOnly('subject6', true);
+    g_form.setSectionDisplay('subject_6',true);
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -37,15 +22,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b8a4a32edb930010281270e23996193f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Sub6FacMap</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Show Subject6</sys_name>
         <sys_overrides/>
         <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
         <sys_update_name>sys_script_client_b8a4a32edb930010281270e23996193f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-28 07:17:38</sys_updated_on>
+        <sys_updated_on>2020-09-30 10:01:23</sys_updated_on>
         <table>x_331786_proj_tt_section_faculty_course_mapping</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

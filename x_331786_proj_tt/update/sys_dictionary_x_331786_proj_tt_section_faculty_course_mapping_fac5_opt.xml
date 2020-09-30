@@ -35,11 +35,11 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_331786_proj_tt_faculty">x_331786_proj_tt_faculty</reference>
+        <reference display_value="" name="x_331786_proj_tt_faculty_subject_mapping">x_331786_proj_tt_faculty_subject_mapping</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual>javascript:"sub_opt="+current.subject5;</reference_qual>
+        <reference_qual>javascript:"subject="+current.subject5;</reference_qual>
         <reference_qual_condition/>
         <reference_type/>
         <sizeclass/>
@@ -49,14 +49,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 07:52:51</sys_created_on>
         <sys_id>c3902cc2db530010281270e239961928</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Faculty Opted</sys_name>
         <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
         <sys_update_name>sys_dictionary_x_331786_proj_tt_section_faculty_course_mapping_fac5_opt</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-30 07:07:17</sys_updated_on>
+        <sys_updated_on>2020-09-30 10:17:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

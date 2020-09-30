@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hide Form</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	alert(g_form.getSectionNames());
+    if (g_form.getValue('fac1_opt') != '') {
+		g_form.setReadOnly('stream',true);
+		g_form.setReadOnly('number',true);
+        g_form.setReadOnly('subject1', true);
+        g_form.setReadOnly('fac1_opt', true);
+        g_form.setReadOnly('n1_class', true);
+        //g_form.setReadOnly('insert_sub1', true);
+    }
+    if (g_form.getValue('fac2_opt') != '') {
+        g_form.setReadOnly('subject2', true);
+        g_form.setReadOnly('fac2_opt', true);
+        g_form.setReadOnly('num2_class', true);
+        //g_form.setReadOnly('insert_sub2', true);
+    }
+    if (g_form.getValue('fac3_opt') != '') {
+        g_form.setReadOnly('subject3', true);
+        g_form.setReadOnly('fac3_opt', true);
+        g_form.setReadOnly('num3_class', true);
+        //g_form.setReadOnly('insert_sub3', true);
+    }
+    if (g_form.getValue('fac4_opt') != '') {
+        g_form.setReadOnly('subject4', true);
+        g_form.setReadOnly('fac4_opt', true);
+        g_form.setReadOnly('num4_class', true);
+        //g_form.setReadOnly('insert_sub4', true);
+    }
+    if (g_form.getValue('fac5_opt') != '') {
+        g_form.setReadOnly('subject5', true);
+        g_form.setReadOnly('fac5_opt', true);
+        g_form.setReadOnly('num5_class', true);
+        //g_form.setReadOnly('insert_sub5', true);
+    }
+    if (g_form.getValue('fac6_opt') != '') {
+        g_form.setReadOnly('subject6', true);
+        g_form.setReadOnly('fac6_opt', true);
+        g_form.setReadOnly('num6_class', true);
+        //g_form.setReadOnly('insert_sub6', true);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 08:44:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3af8c0c3db9f0010281270e23996199d</sys_id>
+        <sys_mod_count>78</sys_mod_count>
+        <sys_name>Hide Form</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_script_client_3af8c0c3db9f0010281270e23996199d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-30 08:37:10</sys_updated_on>
+        <table>x_331786_proj_tt_section_faculty_course_mapping</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>d0dcb113dbbabb0452cec5970596190f</instance_id>
+        <instance_name>dev89329</instance_name>
+        <name>sys_script_client_3af8c0c3db9f0010281270e23996199d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;sys_created_on&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Hide Form&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	alert(g_form.getSectionNames());
+    if (g_form.getValue('fac1_opt') != '') {
+		g_form.setReadOnly('stream',true);
+		g_form.setReadOnly('number',true);
+        g_form.setReadOnly('subject1', true);
+        g_form.setReadOnly('fac1_opt', true);
+        g_form.setReadOnly('n1_class', true);
+        //g_form.setReadOnly('insert_sub1', true);
+    }
+    if (g_form.getValue('fac2_opt') != '') {
+        g_form.setReadOnly('subject2', true);
+        g_form.setReadOnly('fac2_opt', true);
+        g_form.setReadOnly('num2_class', true);
+        //g_form.setReadOnly('insert_sub2', true);
+    }
+    if (g_form.getValue('fac3_opt') != '') {
+        g_form.setReadOnly('subject3', true);
+        g_form.setReadOnly('fac3_opt', true);
+        g_form.setReadOnly('num3_class', true);
+        //g_form.setReadOnly('insert_sub3', true);
+    }
+    if (g_form.getValue('fac4_opt') != '') {
+        g_form.setReadOnly('subject4', true);
+        g_form.setReadOnly('fac4_opt', true);
+        g_form.setReadOnly('num4_class', true);
+        //g_form.setReadOnly('insert_sub4', true);
+    }
+    if (g_form.getValue('fac5_opt') != '') {
+        g_form.setReadOnly('subject5', true);
+        g_form.setReadOnly('fac5_opt', true);
+        g_form.setReadOnly('num5_class', true);
+        //g_form.setReadOnly('insert_sub5', true);
+    }
+    if (g_form.getValue('fac6_opt') != '') {
+        g_form.setReadOnly('subject6', true);
+        g_form.setReadOnly('fac6_opt', true);
+        g_form.setReadOnly('num6_class', true);
+        //g_form.setReadOnly('insert_sub6', true);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-03-06 08:44:14&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3af8c0c3db9f0010281270e23996199d&lt;/sys_id&gt;&lt;sys_mod_count&gt;78&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hide Form&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt"&gt;1616c3eddb530010281270e2399619b4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Project-Time Table Management System"&gt;1616c3eddb530010281270e2399619b4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_3af8c0c3db9f0010281270e23996199d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-30 08:37:10&lt;/sys_updated_on&gt;&lt;table&gt;x_331786_proj_tt_section_faculty_course_mapping&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>938525625</payload_hash>
+        <record_name>Hide Form</record_name>
+        <reverted_from/>
+        <source>bbfb1cbd07778410b198f8ed7c1ed0e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-30 08:37:10</sys_created_on>
+        <sys_id>96a6f9d61b859010aef3877ddc4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17264ba4e810000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-30 08:37:10</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>dea6f9d63385901092c749140edac960</update_guid>
+        <update_guid_history>dea6f9d63385901092c749140edac960:938525625,0086b1d6548590108742ff48afa2d2dd:420402088,a37ebe29adc91010a5c66b10af85183a:1889921822,e98bebc9e42f00101c0c21e05a5c484e:227094110,a3ffc0c9b627001067cba55186acee5c:569439061,dacec0c98b270010ba8ea5fd4863d868:975081227,6b7e08c9dd2700107f1528dd1666794a:95038423,c7428005002700103446a85e6e409717:-1732039041,a8adbb3065270010b176b98564ad50fd:1123511329,be7d37309c270010b362cd53a2b672bc:1471618830,d51d3ffcb1e30010cd2f8946ea7a093f:1222286204,93ccfffc83e300103997ab8cc3531af7:-1950173198,b8ac7ffc79e300109fe58f0c38861feb:-46834455,e87cf3fc7de30010254efa8e76702e36:-832107008,7f4c7bfc58e30010fcece62e9aa77f8c:320682253,211cffbcdee30010cae04cd86a3d7c25:-694102565,d3ab33fc0ce30010f281f2a0da7f3756:-1893368943,998bffbcc6e3001065731c32f8e9121e:513582977,447bffbce7e30010a815367827e9cf8a:-1418657024,af2b7bbccfe30010e89525e001acc873:1376043170,37ca7f7c9ae300108dd80ccfbd5dd043:1639299817,e59ab7bc56e3001085a9604f17f6ff44:180342568,a30afb3cc4e3001024b0f3342289e862:2007049060,79b9fb7cc7e3001043f57dbbf8be2546:-1732237165,fca9337cf6e30010607648a915abaa7a:1167707707,3129377c3ee30010ce582a0eb87531ae:2134905078,d4c8337c82e30010442976dabca05273:-456722317,14b7333c56e300108a2cd8731349d28d:-1104144654,1277333c5ae30010441be36fdece2188:-1370718736,4ca6f3f896e300102676588285797374:989568852,a47637f8ace3001015a4910ca6230453:1985303348,365637f896e30010398d64d23102aa5c:-455023692,9de5ffb8a4e300108da902c45b9a5d5b:989568852,e695fbb88de30010b8eaf7218e695cb8:840761742,71b47bf418e30010943caa6656e3ed36:-2016826210,4b9033f430e3001041fcff944150dbcf:-1668290000,465033f40ae3001061d8536c82e85794:2106796340,d87fa7b42ee30010e712a5a8e670b08e:271656991,f44f6fb42be3001088092990a993896e:-1922838809,edaee7b423e300102fb6307f6b8b9110:1431396774,ea7ea3b479e300107764add6fe78cd53:994883811,3c7ea3b4a5e30010c308fba24c25c07b:-1650403530,a30963f050e300107e330bf00af5e430:1799986420,c048e3b041e3001072ecc887c8bcf8b9:-2035953069,f138e3b0e5e30010f058b522a1631123:928430374,77f91ff4fda30010dd7a02469b9ec3c2:-1860178689,a6681bb4bba30010bdbe50334ccbfef8:-1848001028,a0481b74dfa3001037112d04310a3efa:296961705,71b217b06ea300105bb7cdb4cc91bf9d:-1848001028,2b5213b00fa300103a8c32d3db8bbba2:296961705,4553daa42ca30010bc04472c647121eb:636440886,7b235ea439a3001012c04433cd77762a:-1292708654,28d6e5a8d0230010e72e656abef7c494:636440886,73a62968f62300106fa1c262dc31b5a6:927912502,a68629689f23001051f7c6eff550e1a0:-1427479882,042a2c408de70010cf4777fba4813bd2:1928694090,12b9ec404be700103eca33edea3292f7:2113402471,3ba9e840fbe70010ff5957eeb197d898:1923185045,3699ec406ce70010e5f0ba3844f565f2:1819740238,f359a8000fe70010e05ecebfe818745d:-177126872,cf48ec00f7e700109387d30889201e1d:620442406,3bf7a000e2e70010cbbbcd6a513d4671:1251006267,9a65948813a300107df7d08178223f67:618565968,0b25d44884a300107fc691a6502cddb2:1303725955,eda45c4820a30010a0bf06be9aa2daed:-1589751198,cc54d44807a300109cc312ac3da8241e:-399795678,9d341848fca300104382cdc91a3fa5ed:34001335,8714dc083fa30010b73158132d6339d5:-2108047277,f90490483da30010efdfa666d2d9a14a:34001335,af331c0839a300101f7115ffe1d8554a:-134040192,06b25408f5a300101c0472a52600905e:1281256129,4f1f337f25530010dc598fbc6eead62c:-640055354,5dbe733f3953001012510cf5b1a87feb:1281256129,9f8ef73fc15300103091a9428453cf95:946871039,9b4e733fe113001070701d846eeddbb3:1114363004,b4fd733ffc5300109b544e6e557491a7:-316181096,61ed3ffbeb530010f48f62fe8d6d2de8:1114363004,3e82d48b449f0010111668d6a566a909:-1527414879,1929c4c3739f00108bcd0b5c7696004e:1281256129</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-30 08:37:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>54b56bc557414300abff287eab41f0a4</sys_id>
+        <sys_metadata>3af8c0c3db9f0010281270e23996199d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide Form</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent display_value="Form_Section-Faculty Course Mapping">da0a87e1db930010281270e2399619f0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sys_script_client_3af8c0c3db9f0010281270e23996199d</sys_update_name>
+        <sys_update_version display_value="sys_script_client_3af8c0c3db9f0010281270e23996199d">96a6f9d61b859010aef3877ddc4bcb61</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-30 08:37:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

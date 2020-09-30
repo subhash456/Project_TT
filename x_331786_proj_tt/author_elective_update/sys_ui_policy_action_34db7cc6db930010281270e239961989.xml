@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>sub_opt</field>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 09:52:02</sys_created_on>
+        <sys_id>34db7cc6db930010281270e239961989</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>sub_opt</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_ui_policy_action_34db7cc6db930010281270e239961989</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 09:53:34</sys_updated_on>
+        <table>x_331786_proj_tt_faculty</table>
+        <ui_policy display_value="To Hide Subject Opted field when Stream Opted is None">a35bb4c6db930010281270e2399619c7</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>caa58fcadbf4fb0442b321c40596196a</instance_id>
+        <instance_name>dev81165</instance_name>
+        <name>sys_ui_policy_action_34db7cc6db930010281270e239961989</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>sub_opt</field><mandatory>false</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-03 09:52:02</sys_created_on><sys_id>34db7cc6db930010281270e239961989</sys_id><sys_mod_count>2</sys_mod_count><sys_name>sub_opt</sys_name><sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package><sys_policy/><sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope><sys_update_name>sys_ui_policy_action_34db7cc6db930010281270e239961989</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-03 09:53:34</sys_updated_on><table>x_331786_proj_tt_faculty</table><ui_policy display_value="To Hide Subject Opted field when Stream Opted is None">a35bb4c6db930010281270e2399619c7</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1833813162</payload_hash>
+        <record_name>sub_opt</record_name>
+        <reverted_from/>
+        <source>9e16c3eddb530010281270e2399619b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 09:53:34</sys_created_on>
+        <sys_id>1f3c300adb930010281270e23996199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1709fd09dee0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 09:53:34</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>973c300a949300100f3186736697c09b</update_guid>
+        <update_guid_history>973c300a949300100f3186736697c09b:-1833813162,922cbcc68e930010faad50373f3b8949:-1064626945,41eb7cc6df930010da532a250a6eb190:928737576</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-22 06:41:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>0e9a17739fc344fe81f3687d85d11864</sys_id>
+        <sys_metadata>34db7cc6db930010281270e239961989</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sub_opt</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent display_value="To Hide Subject Opted field when Stream Opted is None in Faculty Table">a35bb4c6db930010281270e2399619c7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_34db7cc6db930010281270e239961989</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_34db7cc6db930010281270e239961989">1f3c300adb930010281270e23996199b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-22 06:41:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

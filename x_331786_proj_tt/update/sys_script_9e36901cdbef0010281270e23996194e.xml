@@ -30,13 +30,16 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
     var id = current.fac_id;
     var title = current.fac_name;
-    var pass = title + id;
     var gr = new GlideRecord('sys_user');
     gr.initialize();
     gr.user_name = id;
     gr.last_name = title;
-    gr.user_password.setDisplayValue(pass);
     gr.insert();
+	var gr1 = new GlideRecord('sys_user');
+    gr1.initialize();
+	gr1.get(gr.sys_id);
+	gr1.user_password.setDisplayValue("Faculty@123");
+	gr1.update();
     var rec = new GlideRecord('sys_user_grmember');
     rec.initialize();
     rec.user = gr.sys_id;
@@ -49,7 +52,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9e36901cdbef0010281270e23996194e</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Make Faculty as User</sys_name>
         <sys_overrides/>
         <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
@@ -57,7 +60,7 @@
         <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
         <sys_update_name>sys_script_9e36901cdbef0010281270e23996194e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-11 07:18:13</sys_updated_on>
+        <sys_updated_on>2020-06-01 10:33:54</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

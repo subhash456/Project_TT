@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate there is at least one record in 'sys_user' matching query:
+User ID starts with 8856
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 11:17:14</sys_created_on>
+        <sys_id>241da66d1b231010aef3877ddc4bcb44</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_atf_step_241da66d1b231010aef3877ddc4bcb44</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 10:28:53</sys_updated_on>
+        <table>sys_user</table>
+        <test display_value="">60d6aae51b231010aef3877ddc4bcbff</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=241da66d1b231010aef3877ddc4bcb44"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>241da66d1b231010aef3877ddc4bcb44</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 11:17:14</sys_created_on>
+        <sys_id>384de66d1b231010aef3877ddc4bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 11:17:14</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="">78b8d86b531000109e02ddeeff7b12f3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>241da66d1b231010aef3877ddc4bcb44</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 11:17:14</sys_created_on>
+        <sys_id>704de66d1b231010aef3877ddc4bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 11:17:14</sys_updated_on>
+        <value>records_match_query</value>
+        <variable display_value="">b86c0427531000109e02ddeeff7b1227</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>241da66d1b231010aef3877ddc4bcb44</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 11:17:14</sys_created_on>
+        <sys_id>744de66d1b231010aef3877ddc4bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 11:17:14</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">02fb0027531000109e02ddeeff7b120b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>241da66d1b231010aef3877ddc4bcb44</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 11:17:14</sys_created_on>
+        <sys_id>f84de66d1b231010aef3877ddc4bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 11:17:14</sys_updated_on>
+        <value>user_nameSTARTSWITH8856^EQ</value>
+        <variable display_value="">915990ab531000109e02ddeeff7b12f8</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>d0dcb113dbbabb0452cec5970596190f</instance_id>
+        <instance_name>dev89329</instance_name>
+        <name>sys_atf_step_241da66d1b231010aef3877ddc4bcb44</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Validate there is at least one record in 'sys_user' matching query:
+User ID starts with 8856
+With a failure timeout of 5 Seconds</description><display_name>Record Query</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><snapshot/><step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-29 11:17:14</sys_created_on><sys_id>241da66d1b231010aef3877ddc4bcb44</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Record Query</sys_name><sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package><sys_policy/><sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope><sys_update_name>sys_atf_step_241da66d1b231010aef3877ddc4bcb44</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-30 10:28:53</sys_updated_on><table>sys_user</table><test display_value="">60d6aae51b231010aef3877ddc4bcbff</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=241da66d1b231010aef3877ddc4bcb44"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>241da66d1b231010aef3877ddc4bcb44</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-29 11:17:14</sys_created_on><sys_id>384de66d1b231010aef3877ddc4bcb0d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-29 11:17:14</sys_updated_on><value>sys_user</value><variable display_value="">78b8d86b531000109e02ddeeff7b12f3</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>241da66d1b231010aef3877ddc4bcb44</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-29 11:17:14</sys_created_on><sys_id>704de66d1b231010aef3877ddc4bcb0d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-29 11:17:14</sys_updated_on><value>records_match_query</value><variable display_value="">b86c0427531000109e02ddeeff7b1227</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>241da66d1b231010aef3877ddc4bcb44</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-29 11:17:14</sys_created_on><sys_id>744de66d1b231010aef3877ddc4bcb0d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-29 11:17:14</sys_updated_on><value>0</value><variable display_value="">02fb0027531000109e02ddeeff7b120b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>241da66d1b231010aef3877ddc4bcb44</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-29 11:17:14</sys_created_on><sys_id>f84de66d1b231010aef3877ddc4bcb0d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-29 11:17:14</sys_updated_on><value>user_nameSTARTSWITH8856^EQ</value><variable display_value="">915990ab531000109e02ddeeff7b12f8</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-1567285461</payload_hash>
+        <record_name>Record Query</record_name>
+        <reverted_from/>
+        <source>bbfb1cbd07778410b198f8ed7c1ed0e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 10:28:53</sys_created_on>
+        <sys_id>dacb27b11b631010aef3877ddc4bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174de8ec97c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 10:28:53</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>d2cb27b11b631010bc86d1099d760269</update_guid>
+        <update_guid_history>d2cb27b11b631010bc86d1099d760269:-1567285461,b84de66d772310100cc2a1c079e1a80f:-2092764810</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 10:28:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>83a00862c77148a88837c5866d2cf9d1</sys_id>
+        <sys_metadata>241da66d1b231010aef3877ddc4bcb44</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sys_atf_step_241da66d1b231010aef3877ddc4bcb44</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_241da66d1b231010aef3877ddc4bcb44">dacb27b11b631010aef3877ddc4bcb69</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 10:28:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

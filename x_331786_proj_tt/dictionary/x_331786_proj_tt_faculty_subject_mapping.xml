@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Faculty-Subject Mapping" max_length="40" name="x_331786_proj_tt_faculty_subject_mapping" sizeclass="2" type="collection">
+        <element attributes="encode_utf8=false,ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" display="true" label="Faculty" mandatory="true" max_length="32" name="faculty" primary="true" reference="x_331786_proj_tt_faculty" type="reference">
+            <choice/>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=faculty" choice="1" label="Subject" mandatory="true" max_length="32" name="subject" primary="true" reference="x_331786_proj_tt_courses" reference_qual="javascript: var str;&#13;&#10;       var gr=new GlideRecord('x_331786_proj_tt_faculty');&#13;&#10;        gr.addQuery('sys_id', current.faculty);&#13;&#10;        gr.query();&#13;&#10;        while (gr.next()) {&#13;&#10;            &quot;stream=&quot;+gr.stream;&#13;&#10;        }&#13;&#10;" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="subject"/>
+        </index>
+        <index name="index2">
+            <element name="faculty"/>
+        </index>
+    </element>
+</database>

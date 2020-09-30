@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Form_Section-Faculty Course Mapping" max_length="40" name="x_331786_proj_tt_section_faculty_course_mapping" sizeclass="0" type="collection">
-        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject1" choice="1" display="true" label="Faculty Opted" max_length="32" name="fac1_opt" reference="x_331786_proj_tt_faculty" reference_qual="javascript:&quot;sub_opt=&quot;+current.subject1;&#13;&#10;" type="reference" use_reference_qualifier="advanced">
+    <element label="Form_Section-Faculty Course Mapping" max_length="40" name="x_331786_proj_tt_section_faculty_course_mapping" sizeclass="1" type="collection">
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject1" choice="1" display="true" label="Faculty Opted" max_length="32" name="fac1_opt" reference="x_331786_proj_tt_faculty_subject_mapping" reference_qual="javascript:&quot;subject=&quot;+current.subject1;" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
             <choice/>
         </element>
-        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject2" choice="1" label="Faculty Opted" max_length="32" name="fac2_opt" reference="x_331786_proj_tt_faculty" reference_qual="javascript:&quot;sub_opt=&quot;+current.subject2;" type="reference" use_reference_qualifier="advanced">
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject2" choice="1" label="Faculty Opted" max_length="32" name="fac2_opt" reference="x_331786_proj_tt_faculty_subject_mapping" reference_qual="javascript:&quot;subject=&quot;+current.subject2;" type="reference" use_reference_qualifier="advanced">
             <choice/>
         </element>
-        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject3" choice="1" label="Faculty Opted" max_length="32" name="fac3_opt" reference="x_331786_proj_tt_faculty" reference_qual="javascript:&quot;sub_opt=&quot;+current.subject3;" type="reference" use_reference_qualifier="advanced">
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject3" choice="1" label="Faculty Opted" max_length="32" name="fac3_opt" reference="x_331786_proj_tt_faculty_subject_mapping" reference_qual="javascript:&quot;subject=&quot;+current.subject3;" type="reference" use_reference_qualifier="advanced">
             <choice/>
         </element>
-        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject4" choice="1" label="Faculty Opted" max_length="40" name="fac4_opt" reference="x_331786_proj_tt_faculty" reference_qual="javascript:&quot;sub_opt=&quot;+current.subject4;" type="reference" use_reference_qualifier="advanced">
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject4" choice="1" label="Faculty Opted" max_length="40" name="fac4_opt" reference="x_331786_proj_tt_faculty_subject_mapping" reference_qual="javascript:&quot;subject=&quot;+current.subject4;" type="reference" use_reference_qualifier="advanced">
             <choice/>
         </element>
-        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject5" choice="1" label="Faculty Opted" max_length="40" name="fac5_opt" reference="x_331786_proj_tt_faculty" reference_qual="javascript:&quot;sub_opt=&quot;+current.subject5;" type="reference" use_reference_qualifier="advanced">
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject5" choice="1" label="Faculty Opted" max_length="40" name="fac5_opt" reference="x_331786_proj_tt_faculty_subject_mapping" reference_qual="javascript:&quot;subject=&quot;+current.subject5;" type="reference" use_reference_qualifier="advanced">
             <choice/>
         </element>
-        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject6" choice="1" label="Faculty Opted" max_length="32" name="fac6_opt" reference="x_331786_proj_tt_faculty" reference_qual="javascript:&quot;sub_opt=&quot;+current.subject6;" type="reference" use_reference_qualifier="advanced">
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice,ref_qual_elements=subject6" choice="1" label="Faculty Opted" max_length="32" name="fac6_opt" reference="x_331786_proj_tt_faculty_subject_mapping" reference_qual="javascript:&quot;subject=&quot;+current.subject6;" type="reference" use_reference_qualifier="advanced">
             <choice/>
         </element>
         <element label="Add Subject 2" max_length="40" name="insert_sub1" type="boolean"/>

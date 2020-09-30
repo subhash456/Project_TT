@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>stream</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>StreamToSubjectMap</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+	g_form.setReadOnly('stream',true);
+    var str = g_form.getValue('stream');
+    try {
+        var k = new GlideAjax('getCourses');
+        k.addParam('sysparm_name', 'Courses');
+        k.addParam('stream', str);
+        k.getXML(getc);
+
+        function getc(response) {
+            var y = response.responseXML.documentElement.getAttribute('answer');
+            var fields = [];
+            fields = JSON.parse(y);
+            var i = 1;
+            var cc = fields.length;
+            for (var count = 0; count < cc; count++) {
+                g_form.setValue('subject' + i, fields[count]);
+                g_form.setReadOnly('subject' + i, true);
+                i++;
+            }
+        }
+	}catch (e) {
+
+        }
+
+        //Type appropriate comment here, and begin script below
+
+    }]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 07:38:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>72a66912db530010281270e23996197e</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name>StreamToSubjectMap</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_script_client_72a66912db530010281270e23996197e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-28 06:16:03</sys_updated_on>
+        <table>x_331786_proj_tt_section_faculty_course_mapping</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>d0dcb113dbbabb0452cec5970596190f</instance_id>
+        <instance_name>dev89329</instance_name>
+        <name>sys_script_client_72a66912db530010281270e23996197e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;stream&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;StreamToSubjectMap&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+	g_form.setReadOnly('stream',true);
+    var str = g_form.getValue('stream');
+    try {
+        var k = new GlideAjax('getCourses');
+        k.addParam('sysparm_name', 'Courses');
+        k.addParam('stream', str);
+        k.getXML(getc);
+
+        function getc(response) {
+            var y = response.responseXML.documentElement.getAttribute('answer');
+            var fields = [];
+            fields = JSON.parse(y);
+            var i = 1;
+            var cc = fields.length;
+            for (var count = 0; count &lt; cc; count++) {
+                g_form.setValue('subject' + i, fields[count]);
+                g_form.setReadOnly('subject' + i, true);
+                i++;
+            }
+        }
+	}catch (e) {
+
+        }
+
+        //Type appropriate comment here, and begin script below
+
+    }]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-03-04 07:38:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;72a66912db530010281270e23996197e&lt;/sys_id&gt;&lt;sys_mod_count&gt;34&lt;/sys_mod_count&gt;&lt;sys_name&gt;StreamToSubjectMap&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt"&gt;1616c3eddb530010281270e2399619b4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Project-Time Table Management System"&gt;1616c3eddb530010281270e2399619b4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_72a66912db530010281270e23996197e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-28 06:16:03&lt;/sys_updated_on&gt;&lt;table&gt;x_331786_proj_tt_section_faculty_course_mapping&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1184677494</payload_hash>
+        <record_name>StreamToSubjectMap</record_name>
+        <reverted_from/>
+        <source>bbfb1cbd07778410b198f8ed7c1ed0e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-28 06:16:03</sys_created_on>
+        <sys_id>af23cb6d1bc91010aef3877ddc4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17259ec62c00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-28 06:16:03</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>e723cb6d6fc9101047342b62c1e05bc1</update_guid>
+        <update_guid_history>e723cb6d6fc9101047342b62c1e05bc1:-1184677494,efbcba29a4c91010ce63495d3fdc4b10:1406047549,c03e9bb89ea300104ae7553e8e177ebb:1743301778,cadd9f78f2a30010986ca190c3441404:-664967503,6168d3b479a30010c883a00724db429a:800676312,ab4893b4a4a30010a75fe24efc8466cb:-118327131,17929008e3a30010f8b1af0142b1fa76:800676312,e85fbf3f05530010f02e6ce6eb1bf3c1:-1438193682,5743dc8b129f001078edc8d0de450c0b:800676312,ceb2588b409f00101f5f77526ed4ec38:225395958,5a1f000bfa9f0010bf6fb733f337f7c0:800676312,84ee00c7929f0010d650a02fd9938136:1262407659,0078c03e26170010fcedfc759d7ce73b:-595022502,6dfea7e2e2d30010d9d2026f9dbe50e9:-615024258,2baee7e2b2d30010b6fda2f0c0f3430e:1849579627,8e9ee7e253d30010deb8742f19436407:-447074196,5e8e6fe2f6d300100a85244571f129e9:1849579627,4c7ea7e252d30010717968c7625a40d8:469562149,081eefa26fd3001026639ac685c8252e:-692821831,afdde3e219d30010c8d2eac9feb1e71b:1849579627,debd27e241d300106851b16eefc6af57:-1605551879,6e9defa29cd30010922d1814ed6d5129:1849579627,135d6ba2f7d30010bc0caa3ff85ff8a0:-615024258,fa2d2fa27cd300109dcf846cffd492bb:-2082187823,913baa120c1700101e9fa13cfad2fa76:576978463,63eaa212511700104876e913a5cfae10:-1317782098,06eaa21299170010bd0a1e0e6be23b82:-1481828543,799aa2125d170010ab2575e6f6110bad:-1640718168,3a8aa212b6170010b707276745a18d01:-2079687333,6069e2de50d300105fd7ebf530724194:-1640718168,8730aa1ac7d30010d21ee785cb8db424:-1525987142,4610e61a18d300101ba10b90b4b4e6d3:-595519923,e78e35de0f53001081bb900545b34d50:-1525987142,799dfddeb85300100e8c6343cfdea902:-595519923,add6a512bf53001051a0314f39b8e8c0:-1525987142</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-30 08:32:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>344c18c0b19541008b5b5b20d1f97c40</sys_id>
+        <sys_metadata>72a66912db530010281270e23996197e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StreamToSubjectMap</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent display_value="Form_Section-Faculty Course Mapping">da0a87e1db930010281270e2399619f0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sys_script_client_72a66912db530010281270e23996197e</sys_update_name>
+        <sys_update_version display_value="sys_script_client_72a66912db530010281270e23996197e">af23cb6d1bc91010aef3877ddc4bcbc1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-30 08:32:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

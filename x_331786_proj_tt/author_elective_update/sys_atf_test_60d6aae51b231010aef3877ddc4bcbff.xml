@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description/>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>Test BR</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 10:49:16</sys_created_on>
+        <sys_id>60d6aae51b231010aef3877ddc4bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test BR</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_atf_test_60d6aae51b231010aef3877ddc4bcbff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 10:49:16</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=60d6aae51b231010aef3877ddc4bcbff"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>d0dcb113dbbabb0452cec5970596190f</instance_id>
+        <instance_name>dev89329</instance_name>
+        <name>sys_atf_test_60d6aae51b231010aef3877ddc4bcbff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description/><enable_parameterized_testing>false</enable_parameterized_testing><name>Test BR</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-29 10:49:16</sys_created_on><sys_id>60d6aae51b231010aef3877ddc4bcbff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test BR</sys_name><sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package><sys_policy/><sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope><sys_update_name>sys_atf_test_60d6aae51b231010aef3877ddc4bcbff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-29 10:49:16</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=60d6aae51b231010aef3877ddc4bcbff"/></record_update>]]></payload>
+        <payload_hash>2079165680</payload_hash>
+        <record_name>Test BR</record_name>
+        <reverted_from/>
+        <source>bbfb1cbd07778410b198f8ed7c1ed0e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 10:49:16</sys_created_on>
+        <sys_id>47d6eae51b231010aef3877ddc4bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174d97b17530000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 10:49:16</sys_updated_on>
+        <type>Test</type>
+        <update_guid>8fd6eae52a231010d8c3e97190676e69</update_guid>
+        <update_guid_history>8fd6eae52a231010d8c3e97190676e69:2079165680</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 10:28:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>16f43ac72910474f82e44dda441f3999</sys_id>
+        <sys_metadata>60d6aae51b231010aef3877ddc4bcbff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test BR</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sys_atf_test_60d6aae51b231010aef3877ddc4bcbff</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_60d6aae51b231010aef3877ddc4bcbff">47d6eae51b231010aef3877ddc4bcb6a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 10:28:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

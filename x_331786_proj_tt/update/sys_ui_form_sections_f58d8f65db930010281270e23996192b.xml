@@ -10,9 +10,93 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_331786_proj_tt_section_faculty_course_mapping" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">f58d8f65db930010281270e23996192b</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">566a0fa1db930010281270e239961949</sys_ui_section>
+            <sys_ui_section caption="Fill The Below Details To Generate TT" display_value="Fill The Below Details To Generate TT" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">566a0fa1db930010281270e239961949</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-03-02 07:11:22</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-30 09:49:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55b223391b231010aef3877ddc4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_331786_proj_tt_section_faculty_course_mapping" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">f58d8f65db930010281270e23996192b</sys_ui_form>
+            <sys_ui_section caption="Subject 1" display_value="Subject 1" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">d1b223391b231010aef3877ddc4bcb01</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-30 09:49:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-30 09:49:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5b223391b231010aef3877ddc4bcb49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_331786_proj_tt_section_faculty_course_mapping" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">f58d8f65db930010281270e23996192b</sys_ui_form>
+            <sys_ui_section caption="Subject 2" display_value="Subject 2" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">d9b223391b231010aef3877ddc4bcb02</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-30 09:49:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-30 09:49:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11b223391b231010aef3877ddc4bcb4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_331786_proj_tt_section_faculty_course_mapping" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">f58d8f65db930010281270e23996192b</sys_ui_form>
+            <sys_ui_section caption="Subject 3" display_value="Subject 3" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">95b223391b231010aef3877ddc4bcb03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-30 09:49:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-30 09:49:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5db223391b231010aef3877ddc4bcb50</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_331786_proj_tt_section_faculty_course_mapping" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">f58d8f65db930010281270e23996192b</sys_ui_form>
+            <sys_ui_section caption="Subject 4" display_value="Subject 4" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">51b223391b231010aef3877ddc4bcb04</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-30 09:49:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-30 09:49:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9db223391b231010aef3877ddc4bcb54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_331786_proj_tt_section_faculty_course_mapping" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">f58d8f65db930010281270e23996192b</sys_ui_form>
+            <sys_ui_section caption="Subject 5" display_value="Subject 5" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">1db223391b231010aef3877ddc4bcb04</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-30 09:49:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-30 09:49:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1b223391b231010aef3877ddc4bcb59</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_331786_proj_tt_section_faculty_course_mapping" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">f58d8f65db930010281270e23996192b</sys_ui_form>
+            <sys_ui_section caption="Subject 6" display_value="Subject 6" name="x_331786_proj_tt_section_faculty_course_mapping" sys_domain="global" view="Default view">99b223391b231010aef3877ddc4bcb43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-30 09:49:14</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_331786_proj_tt_section_faculty_course_mapping</name>

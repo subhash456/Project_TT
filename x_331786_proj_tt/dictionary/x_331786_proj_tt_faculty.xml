@@ -5,16 +5,10 @@
         <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" label="Stream Opted" mandatory="true" max_length="32" name="stream" reference="x_331786_proj_tt_stream" type="reference">
             <choice/>
         </element>
-        <element attributes="ref_auto_completer=AJAXReferenceChoice,is_searchable_choice" choice="1" dependent="stream" dependent_on_field="stream" label="Subject Opted" max_length="32" name="sub_opt" reference="x_331786_proj_tt_courses" type="reference" use_dependent_field="true">
-            <choice/>
-        </element>
         <index name="index">
             <element name="fac_id"/>
         </index>
         <index name="index2">
-            <element name="sub_opt"/>
-        </index>
-        <index name="index3">
             <element name="stream"/>
         </index>
     </element>

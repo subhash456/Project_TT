@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_331786_proj_tt.getFaculty</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getFaculty</name>
+        <script><![CDATA[var getFaculty = Class.create();
+getFaculty.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    Faculty: function() {
+        var sc = this.getParameter('sub_opt');
+        var faculty = [];
+        var jsonSub;
+        var gr = new GlideRecord('x_331786_proj_tt_faculty');
+        gr.addQuery('sub_opt', sc);
+        gr.query();
+        while (gr.next()) {
+            faculty.push(gr.fac_name.toString());
+            jsonSub = JSON.stringify(faculty);
+        }
+        return jsonSub;
+    },
+
+    type: 'getFaculty'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 09:31:13</sys_created_on>
+        <sys_id>a480ca52db930010281270e239961953</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>getFaculty</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_script_include_a480ca52db930010281270e239961953</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-28 06:53:06</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>d0dcb113dbbabb0452cec5970596190f</instance_id>
+        <instance_name>dev89329</instance_name>
+        <name>sys_script_include_a480ca52db930010281270e239961953</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_331786_proj_tt.getFaculty&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;getFaculty&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var getFaculty = Class.create();
+getFaculty.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    Faculty: function() {
+        var sc = this.getParameter('sub_opt');
+        var faculty = [];
+        var jsonSub;
+        var gr = new GlideRecord('x_331786_proj_tt_faculty');
+        gr.addQuery('sub_opt', sc);
+        gr.query();
+        while (gr.next()) {
+            faculty.push(gr.fac_name.toString());
+            jsonSub = JSON.stringify(faculty);
+        }
+        return jsonSub;
+    },
+
+    type: 'getFaculty'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-03-04 09:31:13&lt;/sys_created_on&gt;&lt;sys_id&gt;a480ca52db930010281270e239961953&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;getFaculty&lt;/sys_name&gt;&lt;sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt"&gt;1616c3eddb530010281270e2399619b4&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Project-Time Table Management System"&gt;1616c3eddb530010281270e2399619b4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_a480ca52db930010281270e239961953&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-28 06:53:06&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-824561893</payload_hash>
+        <record_name>getFaculty</record_name>
+        <reverted_from/>
+        <source>bbfb1cbd07778410b198f8ed7c1ed0e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-28 06:53:06</sys_created_on>
+        <sys_id>96ab4f251b0d1010aef3877ddc4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1725a0e4d2d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-28 06:53:06</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>12ab4f25f70d101029f54ce7c82545a6</update_guid>
+        <update_guid_history>12ab4f25f70d101029f54ce7c82545a6:-824561893,f35b8e1a9493001024c2a32507733f67:1566378370,0d57ce9667930010b713218aa9348eb9:-1731795137,bac68a9608930010bc9893a00f426223:1428938543,20a68e563c930010ff65e2ac6b0aef06:-1247831265,22464296149300108c229b0a9cdf78f3:-188861971,daf542964f930010a545608f18840257:1901162571,75c5ce560e930010977a318454406669:-1247831265,1a6502564a9300108912298af6ab71e9:-2108343773,c9f40256119300100e5dd61e849e5a07:1759722778,1844ca16f1930010ef2a7cf0c98fb45b:-363340583,8df30e1657930010125c07a07ee4328c:-492333111,3d2206d2709300105631218414fa21c3:-1908719732,d3d106d2b0930010205200f4f4322c0a:-492333111,9ac1c2d24893001086f343fa3419b174:857270432,e5a10e920693001048b25d4934237c83:478516756,79b00a92a7930010f807a29cf61eb9cc:-816380971</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-30 08:31:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>1a9d5150a38546a5874f110186fe38d9</sys_id>
+        <sys_metadata>a480ca52db930010281270e239961953</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getFaculty</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sys_script_include_a480ca52db930010281270e239961953</sys_update_name>
+        <sys_update_version display_value="sys_script_include_a480ca52db930010281270e239961953">96ab4f251b0d1010aef3877ddc4bcba6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-30 08:31:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

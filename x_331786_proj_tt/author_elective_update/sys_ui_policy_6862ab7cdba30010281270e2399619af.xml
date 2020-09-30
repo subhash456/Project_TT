@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_331786_proj_tt_section_faculty_course_mapping">insert_sub4=true^EQ<item endquery="false" field="insert_sub4" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>500</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+    g_form.setDisplay('subject5', false);
+    g_form.setMandatory('fac5_opt', false);
+    g_form.setDisplay('fac5_opt', false);
+    g_form.setDisplay('num5_class', false);
+    g_form.setDisplay('insert_sub5', false);
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+    g_form.setDisplay('subject5', true);
+    g_form.setDisplay('fac5_opt', true);
+    g_form.setMandatory('fac5_opt', true);
+    g_form.setDisplay('num5_class', true);
+    g_form.setDisplay('insert_sub5', true);
+}]]></script_true>
+        <set_values/>
+        <short_description>Show Subject 5</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-12 11:03:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6862ab7cdba30010281270e2399619af</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Show Subject 5</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_update_name>sys_ui_policy_6862ab7cdba30010281270e2399619af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-30 09:04:32</sys_updated_on>
+        <table>x_331786_proj_tt_section_faculty_course_mapping</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</application>
+        <file_path/>
+        <instance_id>d0dcb113dbbabb0452cec5970596190f</instance_id>
+        <instance_name>dev89329</instance_name>
+        <name>sys_ui_policy_6862ab7cdba30010281270e2399619af</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_331786_proj_tt_section_faculty_course_mapping"&gt;insert_sub4=true^EQ&lt;item endquery="false" field="insert_sub4" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;500&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+    g_form.setDisplay('subject5', false);
+    g_form.setMandatory('fac5_opt', false);
+    g_form.setDisplay('fac5_opt', false);
+    g_form.setDisplay('num5_class', false);
+    g_form.setDisplay('insert_sub5', false);
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+    g_form.setDisplay('subject5', true);
+    g_form.setDisplay('fac5_opt', true);
+    g_form.setMandatory('fac5_opt', true);
+    g_form.setDisplay('num5_class', true);
+    g_form.setDisplay('insert_sub5', true);
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Show Subject 5&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-03-12 11:03:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6862ab7cdba30010281270e2399619af&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;Show Subject 5&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt"&gt;1616c3eddb530010281270e2399619b4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Project-Time Table Management System"&gt;1616c3eddb530010281270e2399619b4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_6862ab7cdba30010281270e2399619af&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-30 09:04:32&lt;/sys_updated_on&gt;&lt;table&gt;x_331786_proj_tt_section_faculty_course_mapping&lt;/table&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1271335713</payload_hash>
+        <record_name>Show Subject 5</record_name>
+        <reverted_from/>
+        <source>bbfb1cbd07778410b198f8ed7c1ed0e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-30 09:04:33</sys_created_on>
+        <sys_id>dbecf1921bc59010aef3877ddc4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17264d35d1e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-30 09:04:33</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>17ecf19283c5901096cc836a948b7d9f</update_guid>
+        <update_guid_history>17ecf19283c5901096cc836a948b7d9f:-1271335713,049c7d5204c590105a3f6cecbec80a3d:1261018666,75d8395a28859010b6d5ed6413388aa3:440118221,b4be688a4d49501073cd8dd6dda2253f:1261018666,8a0293e9e70d1010a130081c242a2be9:-1271335713,fd5f0f29090d1010ec16c1b0a7cf4111:1261018666,77fd40c976270010a965d94d0ca25f71:-1271335713,76b000c1d02700102bcecb5692e8c102:-192860938,ff0f3f70d12700102704bd325310b49e:-1934769713,1d57bff88de30010d2fa73715c6e923f:1255434885,6cc4affc5aa3001064fd55c5eae14533:-2113445204,8724a7fcbea30010200624f19902c4ff:1076039245,fa72e7bc16a3001016e339b1b6bbb2ad:-916858154</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 10:02:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>04ea6c53eac14d4684682730348b8119</sys_id>
+        <sys_metadata>6862ab7cdba30010281270e2399619af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show Subject 5</sys_name>
+        <sys_package display_value="Project-Time Table Management System" source="x_331786_proj_tt">1616c3eddb530010281270e2399619b4</sys_package>
+        <sys_parent display_value="Form_Section-Faculty Course Mapping">da0a87e1db930010281270e2399619f0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project-Time Table Management System">1616c3eddb530010281270e2399619b4</sys_scope>
+        <sys_scope_delete display_value="">1b06c5bb422348ba87c353727c1b1d61</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_6862ab7cdba30010281270e2399619af</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_6862ab7cdba30010281270e2399619af">dbecf1921bc59010aef3877ddc4bcb9f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 10:02:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
